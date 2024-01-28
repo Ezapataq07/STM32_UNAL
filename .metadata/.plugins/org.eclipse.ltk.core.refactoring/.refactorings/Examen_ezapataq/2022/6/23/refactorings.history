@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Examen_ezapataq/Src/JoystickAdcMain.c&apos; to &apos;ExamenMain.c&apos;" description="Rename resource &apos;JoystickAdcMain.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/JoystickAdcMain.c" name="ExamenMain.c" stamp="1654261620747" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+12:32:20 **** Build of configuration Debug for project IntroADC ****
+make -j8 all 
+arm-none-eabi-size   IntroADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7100	    128	   1816	   9044	   2354	IntroADC.elf
+Finished building: default.size.stdout
+ 
+
+12:32:20 Build Finished. 0 errors, 0 warnings. (took 150ms)
+

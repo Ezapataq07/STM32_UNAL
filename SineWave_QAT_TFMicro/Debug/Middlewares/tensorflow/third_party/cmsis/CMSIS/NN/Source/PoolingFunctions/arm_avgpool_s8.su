@@ -1,0 +1,2 @@
+../Middlewares/tensorflow/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c:257:21:arm_avgpool_s8	144	static,ignoring_inline_asm
+../Middlewares/tensorflow/third_party/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c:388:9:arm_avgpool_s8_get_buffer_size	0	static

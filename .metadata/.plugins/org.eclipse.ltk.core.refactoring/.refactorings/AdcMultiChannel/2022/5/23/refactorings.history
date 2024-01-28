@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AdcMultiChannel/Src/ADC_ContinuaMain.c&apos; to &apos;AdcMultiChannelMain.c&apos;" description="Rename resource &apos;ADC_ContinuaMain.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/ADC_ContinuaMain.c" name="AdcMultiChannelMain.c" stamp="1653945365421" updateReferences="true"/>
+</session>

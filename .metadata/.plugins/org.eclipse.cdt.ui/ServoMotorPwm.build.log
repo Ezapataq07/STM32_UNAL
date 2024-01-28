@@ -1,0 +1,10 @@
+22:40:27 **** Incremental Build of configuration Debug for project ServoMotorPwm ****
+make -j8 all 
+arm-none-eabi-size   ServoMotorPwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7112	    172	   1812	   9096	   2388	ServoMotorPwm.elf
+Finished building: default.size.stdout
+ 
+
+22:40:28 Build Finished. 0 errors, 0 warnings. (took 169ms)
+

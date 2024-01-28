@@ -1,0 +1,13 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:80:7:void* tflite::ops::micro::l2norm::Init(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:41:14:TfLiteStatus tflite::ops::micro::l2norm::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	16	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:530:12:int tflite::MatchingFlatSizeSkipDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&)	32	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:139:20:TfLiteRegistration tflite::ops::micro::Register_L2NORM_REF()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:143:20:TfLiteRegistration tflite::ops::micro::Register_L2_NORMALIZATION()	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:783:13:void tflite::GetInvSqrtQuantizedMultiplierExp(int32_t, int, int32_t*, int*)	48	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/integer_ops/l2normalization.h:25:13:void tflite::reference_integer_ops::L2Normalization(int32_t, int32_t, int32_t, const int8_t*, int8_t*)	64	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:86:14:TfLiteStatus tflite::ops::micro::l2norm::Eval(TfLiteContext*, TfLiteNode*)	136	static

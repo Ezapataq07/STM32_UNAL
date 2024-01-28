@@ -1,0 +1,11 @@
+C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Src/AdcDriver.c:15:6:adcSingle_Config	16	static,ignoring_inline_asm
+../Src/AdcDriver.c:104:6:adcSQRx_Config	24	static
+../Src/AdcDriver.c:129:6:startSingleConversion	4	static
+../Src/AdcDriver.c:134:6:startContinuousConversion	4	static
+../Src/AdcDriver.c:140:6:stopContinuousConversion	4	static
+../Src/AdcDriver.c:145:10:getADC	4	static
+../Src/AdcDriver.c:150:6:ADC_IRQHandler	8	static
+../Src/AdcDriver.c:162:29:adcComplete_Callback	4	static,ignoring_inline_asm
+../Src/AdcDriver.c:167:6:configAnalogPin	16	static

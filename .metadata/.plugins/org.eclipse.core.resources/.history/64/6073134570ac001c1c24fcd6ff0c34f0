@@ -1,0 +1,14 @@
+/*
+ * Taller3Main.c
+ *
+ *  Created on: Mar 25, 2022
+ *      Author: ezque
+ */
+
+#include
+#define true 	1
+#define false	0
+
+int main(void){
+
+}

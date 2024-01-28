@@ -1,0 +1,4 @@
+C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Drivers/Src/BasicTimer.c:14:6:BTimer_Config	16	static,ignoring_inline_asm
+../Drivers/Src/BasicTimer.c:70:29:BTimer_Callback	4	static,ignoring_inline_asm
+../Drivers/Src/BasicTimer.c:75:6:TIM2_IRQHandler	8	static

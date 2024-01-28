@@ -1,0 +1,10 @@
+14:31:04 **** Incremental Build of configuration Debug for project StepperEncoder ****
+make -j8 all 
+arm-none-eabi-size   StepperEncoder.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7916	    112	   1776	   9804	   264c	StepperEncoder.elf
+Finished building: default.size.stdout
+ 
+
+14:31:04 Build Finished. 0 errors, 0 warnings. (took 249ms)
+

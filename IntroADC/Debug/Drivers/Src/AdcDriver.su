@@ -1,0 +1,7 @@
+C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Drivers/Src/AdcDriver.c:14:6:adc_Config	16	static,ignoring_inline_asm
+../Drivers/Src/AdcDriver.c:110:6:startConversion	4	static
+../Drivers/Src/AdcDriver.c:116:10:getADC	4	static
+../Drivers/Src/AdcDriver.c:121:6:ADC_IRQHandler	8	static
+../Drivers/Src/AdcDriver.c:133:29:adcComplete_Callback	4	static,ignoring_inline_asm
+../Drivers/Src/AdcDriver.c:138:6:configAnalogPin	16	static

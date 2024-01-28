@@ -1,0 +1,414 @@
+/**
+ ******************************************************************************
+ * @file           : main.c
+ * @author         : Emanuel Zapata Querubin
+ * @brief          : Desarrollo del driver para el USART
+ ******************************************************************************
+ * - Implementación de las librerías CMSIS
+ * - Migración del GPIO Driver
+ * - Desarrollo de las librerías para el manejo del USART
+ *
+ ******************************************************************************
+ */
+
+#include <stm32f4xx.h>
+
+#include <stdint.h>
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+
+#include "GPIOxDriver.h"
+#include "USARTxDriver.h"
+#include "BasicTimer.h"
+#include "AdcDriver.h"
+#include "PwmDriver.h"
+#include "I2CDriver.h"
+#include "SysTickDriver.h"
+#include "LCD_Driver.h"
+
+#define ADC_SIGNAL_SIZE 		2
+#define NUM_ADC_CONVERSIONS		2
+
+
+/* Definición de variables */
+GPIO_Handler_t 		handlerStateLED 		= {0};
+GPIO_Handler_t 		handlerRxPIN	 		= {0};
+GPIO_Handler_t 		handlerTxPIN	 		= {0};
+BTIMER_Handler_t	handlerStateLedTimer	= {0};
+BTIMER_Handler_t	handlerAdcSamplingTimer	= {0};
+USART_Handler_t		handlerUSART1			= {0};
+PWM_Handler_t 		handlerPWM 				= {0};
+GPIO_Handler_t		handlerPwmPin			= {0};
+GPIO_Handler_t		handlerI2CSDA			= {0};
+GPIO_Handler_t		handlerI2CSCL 			= {0};
+I2C_Handler_t		handlerLCD			 	= {0};
+
+
+ADC_Config_t		adcVxJoystick						= {0};
+ADC_Config_t		adcVyJoystick						= {0};
+ADC_Config_t		joystickAxes[NUM_ADC_CONVERSIONS]	= {0};
+char				bufferAdcData[32]					= "Hola mundo!";
+uint16_t			adcData								= 0;
+bool				adcIsComplete						= false;
+uint16_t 			joystickAdcData[ADC_SIGNAL_SIZE]	= {0};
+uint16_t			dataPosition						= 0;
+uint16_t			newDuty					= 0;
+
+char				bufferReception[32]					= {0};
+char				bufferData[64]						= {0};
+char				rxData 								= '\0';
+bool				stringComplete						= false;
+uint16_t			counterReception					= 0;
+uint16_t			firstParameter = 0;
+uint16_t			secondParameter = 0;
+char				cmd[32] = {0};
+
+bool				partyMode = false;
+uint16_t 			counterParty = 0;
+
+void initSystem(void);
+void parseCommands(char *ptrBufferReception);
+void setPeriod(BTIMER_Handler_t *ptrTimerHandler, uint16_t period);
+void servoPartyMode(PWM_Handler_t *ptrHandlerPwm);
+
+int main(void){
+
+	initSystem();
+	stopTimer(&handlerAdcSamplingTimer);
+	while(1){
+
+		if (rxData != '\0'){
+			bufferReception[counterReception] = rxData;
+			counterReception++;
+
+			if (rxData == '@'){
+				stringComplete = true;
+
+				bufferReception[counterReception-1] = '\0';
+				counterReception = 0;
+			}
+
+			rxData = '\0';
+		}
+
+		if (stringComplete){
+			parseCommands(bufferReception);
+			stringComplete = false;
+		}
+		if (adcIsComplete == true){
+			stopContinuousConversion();
+//			sprintf(bufferAdcData, "Vx = %u\n\r",(unsigned int) joystickAdcData[0]);
+//			writeMsg(&handlerUSART1, bufferAdcData);
+//			sprintf(bufferAdcData, "Vy = %u\n\r",(unsigned int) joystickAdcData[1]);
+//			writeMsg(&handlerUSART1, bufferAdcData);
+			newDuty = joystickAdcData[0] + joystickAdcData[1];
+			newDuty = (180*newDuty)/8190 + 50;
+//			sprintf(bufferAdcData, "Duty = %u\n\r",(unsigned int) newDuty);
+//			writeMsg(&handlerUSART1, bufferAdcData);
+			setPwmDuty(&handlerPWM, newDuty);
+			adcIsComplete = false;
+		}
+		if (partyMode){
+			servoPartyMode(&handlerPWM);
+		}
+	}
+
+
+
+
+
+
+}
+
+void initSystem(void){
+
+	// Configuración para el State LED
+	handlerStateLED.pGPIOx 								= GPIOA;
+	handlerStateLED.GPIO_PinConfig.GPIO_PinNumber		= PIN_5;
+	handlerStateLED.GPIO_PinConfig.GPIO_PinMode			= GPIO_MODE_OUT;		// Se configura el PIN en modo OUTPUT
+	handlerStateLED.GPIO_PinConfig.GPIO_PinOPType		= GPIO_OTYPE_PUSHPULL;	// Se define el OUTPUT TYPE como Push-Pull, para poder hacer el blinky
+	handlerStateLED.GPIO_PinConfig.GPIO_PinPuPdControl	= GPIO_PUPDR_NOTHING;	// Está configuración no es relevante para el PIN en este caso
+	handlerStateLED.GPIO_PinConfig.GPIO_PinSpeed		= GPIO_OSPEED_MEDIUM;	// Se configura el OUTPUT con una velocidad MEDIUM
+	handlerStateLED.GPIO_PinConfig.GPIO_PinAltFunMode	= AF0;					// Está configuración no es relevante para el PIN en este caso
+
+	// Se carga la configuración del State LED
+	GPIO_Config(&handlerStateLED);
+
+	// Configuración del PIN que recibe la información por la USB (RX)
+	handlerRxPIN.pGPIOx								= GPIOA;
+	handlerRxPIN.GPIO_PinConfig.GPIO_PinNumber		= PIN_10;
+	handlerRxPIN.GPIO_PinConfig.GPIO_PinMode		= GPIO_MODE_ALTFN;
+	handlerRxPIN.GPIO_PinConfig.GPIO_PinOPType		= GPIO_OTYPE_PUSHPULL;
+	handlerRxPIN.GPIO_PinConfig.GPIO_PinPuPdControl	= GPIO_PUPDR_NOTHING;
+	handlerRxPIN.GPIO_PinConfig.GPIO_PinSpeed		= GPIO_OSPEED_MEDIUM;
+	handlerRxPIN.GPIO_PinConfig.GPIO_PinAltFunMode	= AF7;
+
+	// Se carga la configuración del Rx PIN
+	GPIO_Config(&handlerRxPIN);
+
+	// Configuración del PIN que envía la información por la USB (TX)
+	handlerTxPIN.pGPIOx								= GPIOA;
+	handlerTxPIN.GPIO_PinConfig.GPIO_PinNumber		= PIN_9;
+	handlerTxPIN.GPIO_PinConfig.GPIO_PinMode		= GPIO_MODE_ALTFN;
+	handlerTxPIN.GPIO_PinConfig.GPIO_PinOPType		= GPIO_OTYPE_PUSHPULL;
+	handlerTxPIN.GPIO_PinConfig.GPIO_PinPuPdControl	= GPIO_PUPDR_NOTHING;
+	handlerTxPIN.GPIO_PinConfig.GPIO_PinSpeed		= GPIO_OSPEED_MEDIUM;
+	handlerTxPIN.GPIO_PinConfig.GPIO_PinAltFunMode	= AF7;
+
+	// Se carga la configuración del Tx PIN
+	GPIO_Config(&handlerTxPIN);
+
+	// Configuración del USART2
+	handlerUSART1.ptrUSARTx							= USART1;
+	handlerUSART1.USART_Config.USART_mode			= USART_MODE_RXTX; //Arreglar
+	handlerUSART1.USART_Config.USART_baudrate		= USART_BAUDRATE_115200;
+	handlerUSART1.USART_Config.USART_datasize		= USART_DATASIZE_8BIT;
+	handlerUSART1.USART_Config.USART_parity			= USART_PARITY_NONE;
+	handlerUSART1.USART_Config.USART_stopbits		= USART_STOPBIT_1;
+	handlerUSART1.USART_Config.USART_interrupt		= USART_INTERRUPT_RX;
+
+	// Se carga la configuración del USART
+	USART_Config(&handlerUSART1);
+
+	// Configuración del Timer 2
+	handlerStateLedTimer.ptrTIMx						= TIM2;
+	handlerStateLedTimer.timerConfig.Timer_mode		= TIMER_MODE_UP;
+	handlerStateLedTimer.timerConfig.Timer_speed		= TIMER_INCR_SPEED_1ms;
+	handlerStateLedTimer.timerConfig.Timer_period	= 250;
+
+	//Cargamos la configuración TIM2
+	BTimer_Config(&handlerStateLedTimer);
+
+	// Configuración del Timer para el ADC
+	handlerAdcSamplingTimer.ptrTIMx						= TIM4;
+	handlerAdcSamplingTimer.timerConfig.Timer_mode		= TIMER_MODE_UP;
+	handlerAdcSamplingTimer.timerConfig.Timer_speed		= TIMER_INCR_SPEED_1ms;
+	handlerAdcSamplingTimer.timerConfig.Timer_period	= 10;
+
+	//Cargamos la configuración TIM2
+	BTimer_Config(&handlerAdcSamplingTimer);
+
+	// Configuracion del ADC
+	adcVxJoystick.channel			= ADC_CHANNEL_0;
+	adcVxJoystick.dataAlignment		= ADC_ALIGNMENT_RIGHT;
+	adcVxJoystick.resolution		= ADC_RESOLUTION_12_BIT;
+	adcVxJoystick.samplingPeriod	= ADC_SAMPLING_PERIOD_144_CYCLES;
+	joystickAxes[0] = adcVxJoystick;
+	adcSingle_Config(&adcVxJoystick);
+
+	adcVyJoystick.channel			= ADC_CHANNEL_8;
+	adcVyJoystick.dataAlignment		= ADC_ALIGNMENT_RIGHT;
+	adcVyJoystick.resolution		= ADC_RESOLUTION_12_BIT;
+	adcVyJoystick.samplingPeriod	= ADC_SAMPLING_PERIOD_144_CYCLES;
+	joystickAxes[1] = adcVyJoystick;
+	adcSingle_Config(&adcVyJoystick);
+
+	adcSQRx_Config(joystickAxes, NUM_ADC_CONVERSIONS);
+
+	/* Configuración del Display1 */
+	handlerPwmPin.pGPIOx 								= GPIOA;
+	handlerPwmPin.GPIO_PinConfig.GPIO_PinNumber			= PIN_6;
+	handlerPwmPin.GPIO_PinConfig.GPIO_PinMode			= GPIO_MODE_ALTFN;
+	handlerPwmPin.GPIO_PinConfig.GPIO_PinOPType			= GPIO_OTYPE_PUSHPULL;
+	handlerPwmPin.GPIO_PinConfig.GPIO_PinSpeed			= GPIO_OSPEED_HIGH;
+	handlerPwmPin.GPIO_PinConfig.GPIO_PinAltFunMode		= AF2;
+	// Se carga la configuración del Display1
+	GPIO_Config(&handlerPwmPin);
+
+	handlerPWM.ptrTIMx 					= TIM3;
+	handlerPWM.pwmConfig.PWM_channel 	= CHANNEL1;
+	handlerPWM.pwmConfig.PWM_prescaler	= TIMER_INCR_SPEED_10us;
+	handlerPWM.pwmConfig.PWM_period		= 2000;
+	handlerPWM.pwmConfig.PWM_dutyCycle	= 50;
+	PWM_Config(&handlerPWM);
+	newDuty = 50;
+
+	/* Configurando los pines sobre los que funciona el I2C1 */
+	handlerI2CSCL.pGPIOx								= GPIOB;
+	handlerI2CSCL.GPIO_PinConfig.GPIO_PinNumber			= PIN_6;
+	handlerI2CSCL.GPIO_PinConfig.GPIO_PinMode			= GPIO_MODE_ALTFN;
+	handlerI2CSCL.GPIO_PinConfig.GPIO_PinOPType			= GPIO_OTYPE_OPENDRAIN;
+	handlerI2CSCL.GPIO_PinConfig.GPIO_PinPuPdControl	= GPIO_PUPDR_PULLUP;
+	handlerI2CSCL.GPIO_PinConfig.GPIO_PinSpeed			= GPIO_OSPEED_FAST;
+	handlerI2CSCL.GPIO_PinConfig.GPIO_PinAltFunMode		= AF4;
+
+	GPIO_Config(&handlerI2CSCL);
+
+	/* Configurando los pines sobre los que funciona el I2C1 */
+	handlerI2CSDA.pGPIOx								= GPIOB;
+	handlerI2CSDA.GPIO_PinConfig.GPIO_PinNumber			= PIN_7;
+	handlerI2CSDA.GPIO_PinConfig.GPIO_PinMode			= GPIO_MODE_ALTFN;
+	handlerI2CSDA.GPIO_PinConfig.GPIO_PinOPType			= GPIO_OTYPE_OPENDRAIN;
+	handlerI2CSDA.GPIO_PinConfig.GPIO_PinPuPdControl	= GPIO_PUPDR_PULLUP;
+	handlerI2CSDA.GPIO_PinConfig.GPIO_PinSpeed			= GPIO_OSPEED_FAST;
+	handlerI2CSDA.GPIO_PinConfig.GPIO_PinAltFunMode		= AF4;
+
+	GPIO_Config(&handlerI2CSDA);
+
+	config_SysTickMs();
+
+	handlerLCD.ptrI2Cx		= I2C1;
+	handlerLCD.modeI2C		= I2C_MODE_FM;
+	handlerLCD.slaveAddress	= 0b0100111;
+	I2C_Config(&handlerLCD);
+}
+
+void parseCommands(char *ptrBufferReception){
+	sscanf(ptrBufferReception, "%s %u ", cmd, (unsigned int*) &firstParameter);
+	if (strcmp(cmd, "Menu") == 0){
+		writeMsg(&handlerUSART1, "\nHelp Menu CMDS:\n");
+		writeMsg(&handlerUSART1, "1)  Menu              -- Print this menu\n");
+		writeMsg(&handlerUSART1, "2)  Start             -- Start Servomotor control with Joystick\n");
+		writeMsg(&handlerUSART1, "3)  Stop              -- Stop Servomotor control with Joystick\n");
+		writeMsg(&handlerUSART1, "4)  initLcd           -- Steps to initialize Lcd\n");
+		writeMsg(&handlerUSART1, "5)  testLcd           -- Writes a default message on LCD\n");
+		writeMsg(&handlerUSART1, "6)  autoUpdateLcd #   -- Automatic LCD Update (# = 0, 1)\n");
+		writeMsg(&handlerUSART1, "7)  servoPosition #   -- Set Servomotor Position to # degrees (# = [0, 180])\n");
+		writeMsg(&handlerUSART1, "8)  minServoPos       -- Set Servomotor Position to 0 degrees\n");
+		writeMsg(&handlerUSART1, "9)  maxServoPos       -- Set Servomotor Position to 180 degrees\n");
+		writeMsg(&handlerUSART1, "10) setLedPeriod #    -- Set blinky period of State LED to # ms (# > 1)\n");
+		writeMsg(&handlerUSART1, "12) startServoParty   -- Set Servomotor in Party Mode\n");
+		writeMsg(&handlerUSART1, "13) dummy\n");
+	}
+	else if (strcmp(cmd, "Start") == 0){
+		writeMsg(&handlerUSART1, "CMD: Start\n");
+		startTimer(&handlerAdcSamplingTimer);
+	}
+	else if (strcmp(cmd, "Stop") == 0){
+		writeMsg(&handlerUSART1, "CMD: Stop\n");
+		stopTimer(&handlerAdcSamplingTimer);
+	}
+	else if (strcmp(cmd, "initLcd") == 0){
+		writeMsg(&handlerUSART1, "CMD: initLcd\n");
+		initLCD(&handlerLCD);
+	}
+	else if (strcmp(cmd, "testLcd") == 0){
+		writeMsg(&handlerUSART1, "CMD: initLcd\n");
+		LCD_writeCommand(&handlerLCD, CLEAR_DISPLAY);
+		LCD_writeStringXY(&handlerLCD, "I'm Working =D", 3, 7);
+		delay_ms(5000);
+		LCD_writeCommand(&handlerLCD, CLEAR_DISPLAY);
+	}
+	else if (strcmp(cmd, "autoUpdateLcd") == 0){
+		writeMsg(&handlerUSART1, "CMD: autoUpdateLcd\n");
+		__NOP();
+	}
+	else if (strcmp(cmd, "servoPosition") == 0){
+		writeMsg(&handlerUSART1, "CMD: servoPosition\n");
+		if ((firstParameter >= 0) && (firstParameter <= 180)){
+			newDuty = firstParameter + 50;
+			setPwmDuty(&handlerPWM, newDuty);
+		}
+		else {
+			writeMsg(&handlerUSART1, "Incorrect Parameter!!!\n");
+		}
+	}
+	else if (strcmp(cmd, "minServoPos") == 0){
+		writeMsg(&handlerUSART1, "CMD: minServoPos\n");
+		setPwmDuty(&handlerPWM, 50);
+	}
+	else if (strcmp(cmd, "maxServoPos") == 0){
+		writeMsg(&handlerUSART1, "CMD: maxServoPos\n");
+		setPwmDuty(&handlerPWM, 230);
+	}
+	else if (strcmp(cmd, "setLedPeriod") == 0){
+		writeMsg(&handlerUSART1, "CMD: setLedPeriod\n");
+		if (firstParameter > 1){
+			setPeriod(&handlerStateLedTimer, firstParameter);
+		} else {
+			writeMsg(&handlerUSART1, "Incorrect Parameter!!!\n");
+		}
+	}
+	else if (strcmp(cmd, "startServoParty") == 0){
+		writeMsg(&handlerUSART1, "CMD: startServoParty\n");
+		partyMode = true;
+	}
+	else if (strcmp(cmd, "dummy") == 0){
+		writeMsg(&handlerUSART1, "CMD: dummy\n");
+		sprintf(bufferData, "number A = %u \n", firstParameter);
+		writeMsg(&handlerUSART1, bufferData);
+//		sprintf(bufferData, "number B = %u \n", secondParameter);
+//		writeMsg(&handlerUSART1, bufferData);
+	}
+	else {
+		writeMsg(&handlerUSART1, "Incorrect Command!!!\n");
+	}
+
+
+}
+
+void setPeriod(BTIMER_Handler_t *ptrTimerHandler, uint16_t period){
+	/**
+	 * La función setPeriod cambia el periodo del Timer correspondiente al handler indicado, a un valor indicado por el usuario
+	 */
+	ptrTimerHandler->timerConfig.Timer_period = period;
+	BTimer_Config(ptrTimerHandler);		// Se vuelve a cargar la cofiguración del Timer con el nuevo periodo
+}
+
+void servoPartyMode(PWM_Handler_t *ptrHandlerPwm){
+	for (uint8_t i = 1; i <= 3; i++){
+		setPwmDuty(ptrHandlerPwm, 90);
+		delay_ms(2000);
+		setPwmDuty(ptrHandlerPwm, 190);
+		delay_ms(800);
+		setPwmDuty(ptrHandlerPwm, 140);
+		delay_ms(700);
+		setPwmDuty(ptrHandlerPwm, 180);
+		delay_ms(350);
+		setPwmDuty(ptrHandlerPwm, 140);
+		delay_ms(350);
+		setPwmDuty(ptrHandlerPwm, 180);
+		delay_ms(750);
+		setPwmDuty(ptrHandlerPwm, 220);
+		delay_ms(350);
+		setPwmDuty(ptrHandlerPwm, 180);
+		delay_ms(350);
+		setPwmDuty(ptrHandlerPwm, 220);
+		delay_ms(750);
+		setPwmDuty(ptrHandlerPwm, 164);
+		delay_ms(350);
+		setPwmDuty(ptrHandlerPwm, 108);
+		delay_ms(350);
+		setPwmDuty(ptrHandlerPwm, 164);
+		delay_ms(350);
+		setPwmDuty(ptrHandlerPwm, 125);
+		delay_ms(350);
+		setPwmDuty(ptrHandlerPwm, 90);
+		delay_ms(2000);
+	}
+	partyMode = false;
+}
+
+/* Implementacion del Callback para el timer2 */
+void BTimer2_Callback(void){
+	handlerStateLED.pGPIOx->ODR ^= GPIO_ODR_OD5;
+}
+
+/* Implementacion del Callback para el timer4 */
+void BTimer4_Callback(void){
+	startContinuousConversion();
+}
+
+/* Implementacion del Callback para el timer4 */
+//void BTimer5_Callback(void){
+//	counterParty++;
+//}
+
+/* Implementacion del Callback para el Usart2 */
+void Usart1_RX_Callback(void){
+	rxData = getRxData();
+}
+
+void Usart1_TX_Callback(void){
+	__NOP();
+}
+
+void adcComplete_Callback(void){
+	joystickAdcData[dataPosition] = getADC();
+	dataPosition++;
+	if (dataPosition >= ADC_SIGNAL_SIZE){
+		dataPosition = 0;
+		adcIsComplete = true;
+	}
+}

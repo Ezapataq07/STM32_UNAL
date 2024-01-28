@@ -1,0 +1,7 @@
+../Src/JoystickAdcMain.c:54:5:main	24	static
+../Src/JoystickAdcMain.c:90:6:initSystem	8	static
+../Src/JoystickAdcMain.c:189:6:BTimer2_Callback	4	static
+../Src/JoystickAdcMain.c:194:6:BTimer4_Callback	8	static
+../Src/JoystickAdcMain.c:199:6:Usart2_RX_Callback	8	static
+../Src/JoystickAdcMain.c:203:6:Usart2_TX_Callback	4	static,ignoring_inline_asm
+../Src/JoystickAdcMain.c:207:6:adcComplete_Callback	16	static

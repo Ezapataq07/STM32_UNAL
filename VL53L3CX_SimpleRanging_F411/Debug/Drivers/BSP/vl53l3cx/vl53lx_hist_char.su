@@ -1,0 +1,3 @@
+D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_hist_char.c:34:14:VL53LX_set_calib_config	24	static
+D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_hist_char.c:112:14:VL53LX_set_hist_calib_pulse_delay	40	static
+D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_hist_char.c:138:14:VL53LX_disable_calib_pulse_delay	40	static

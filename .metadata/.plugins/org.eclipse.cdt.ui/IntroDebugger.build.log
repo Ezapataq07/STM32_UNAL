@@ -1,0 +1,10 @@
+10:16:24 **** Build of configuration Debug for project IntroDebugger ****
+make -j8 all 
+arm-none-eabi-size   IntroDebugger.elf 
+   text	   data	    bss	    dec	    hex	filename
+    740	      8	   1568	   2316	    90c	IntroDebugger.elf
+Finished building: default.size.stdout
+ 
+
+10:16:24 Build Finished. 0 errors, 0 warnings. (took 192ms)
+

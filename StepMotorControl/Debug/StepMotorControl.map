@@ -1,0 +1,989 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                              ./Src/StepMotorControlMain.o (BTimer_Config)
+C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+                              ./Src/StepMotorControlMain.o (GPIO_Config)
+C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+                              ./Src/StepMotorControlMain.o (moveStepMotor)
+C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+                              ./Src/StepMotorControlMain.o (config_SysTickMs)
+c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-errno.o)
+                              ./Src/syscalls.o (__errno)
+c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o)
+                              c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (exit)
+c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-impure.o)
+                              c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-init.o)
+                              c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (__libc_init_array)
+c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memset.o)
+                              c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (memset)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+ .data          0x0000000000000000        0x4 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .rodata        0x0000000000000000       0x24 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .text          0x0000000000000000       0x7c c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.exidx     0x0000000000000000       0x10 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1c c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/StepMotorControlMain.o
+ .text          0x0000000000000000        0x0 ./Src/StepMotorControlMain.o
+ .data          0x0000000000000000        0x0 ./Src/StepMotorControlMain.o
+ .bss           0x0000000000000000        0x0 ./Src/StepMotorControlMain.o
+ .bss.handlerMotorTimer
+                0x0000000000000000       0x10 ./Src/StepMotorControlMain.o
+ .data.totalStepNumber
+                0x0000000000000000        0x2 ./Src/StepMotorControlMain.o
+ .data.speedRpm
+                0x0000000000000000        0x1 ./Src/StepMotorControlMain.o
+ .data.MotorTimerPeriod
+                0x0000000000000000        0x2 ./Src/StepMotorControlMain.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/syscalls.o
+ .text          0x0000000000000000        0x0 ./Src/syscalls.o
+ .data          0x0000000000000000        0x0 ./Src/syscalls.o
+ .bss           0x0000000000000000        0x0 ./Src/syscalls.o
+ .bss.__env     0x0000000000000000        0x4 ./Src/syscalls.o
+ .data.environ  0x0000000000000000        0x4 ./Src/syscalls.o
+ .text.initialise_monitor_handles
+                0x0000000000000000        0xc ./Src/syscalls.o
+ .text._getpid  0x0000000000000000        0xe ./Src/syscalls.o
+ .text._kill    0x0000000000000000       0x20 ./Src/syscalls.o
+ .text._exit    0x0000000000000000       0x14 ./Src/syscalls.o
+ .text._read    0x0000000000000000       0x3a ./Src/syscalls.o
+ .text._write   0x0000000000000000       0x38 ./Src/syscalls.o
+ .text._close   0x0000000000000000       0x16 ./Src/syscalls.o
+ .text._fstat   0x0000000000000000       0x1e ./Src/syscalls.o
+ .text._isatty  0x0000000000000000       0x14 ./Src/syscalls.o
+ .text._lseek   0x0000000000000000       0x18 ./Src/syscalls.o
+ .text._open    0x0000000000000000       0x1a ./Src/syscalls.o
+ .text._wait    0x0000000000000000       0x1e ./Src/syscalls.o
+ .text._unlink  0x0000000000000000       0x1e ./Src/syscalls.o
+ .text._times   0x0000000000000000       0x16 ./Src/syscalls.o
+ .text._stat    0x0000000000000000       0x1e ./Src/syscalls.o
+ .text._link    0x0000000000000000       0x20 ./Src/syscalls.o
+ .text._fork    0x0000000000000000       0x16 ./Src/syscalls.o
+ .text._execve  0x0000000000000000       0x22 ./Src/syscalls.o
+ .debug_info    0x0000000000000000      0x6e0 ./Src/syscalls.o
+ .debug_abbrev  0x0000000000000000      0x1b3 ./Src/syscalls.o
+ .debug_aranges
+                0x0000000000000000       0xa8 ./Src/syscalls.o
+ .debug_ranges  0x0000000000000000       0x98 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000      0x24c ./Src/syscalls.o
+ .debug_macro   0x0000000000000000      0xa7e ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x18 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x94 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x3c ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x57 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000      0x174 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000      0x341 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x58 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x71 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000000000000000      0x12a ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x35 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x6a ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x52 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x52 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0xd5 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x3d ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x35 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000      0x12c ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x29 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000      0x241 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000      0x145 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000      0x189 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x0000000000000000       0xce ./Src/syscalls.o
+ .debug_line    0x0000000000000000      0x7ea ./Src/syscalls.o
+ .debug_str     0x0000000000000000     0x8a45 ./Src/syscalls.o
+ .comment       0x0000000000000000       0x51 ./Src/syscalls.o
+ .debug_frame   0x0000000000000000      0x2ac ./Src/syscalls.o
+ .ARM.attributes
+                0x0000000000000000       0x2e ./Src/syscalls.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .group         0x0000000000000000        0xc ./Src/sysmem.o
+ .text          0x0000000000000000        0x0 ./Src/sysmem.o
+ .data          0x0000000000000000        0x0 ./Src/sysmem.o
+ .bss           0x0000000000000000        0x0 ./Src/sysmem.o
+ .bss.__sbrk_heap_end
+                0x0000000000000000        0x4 ./Src/sysmem.o
+ .text._sbrk    0x0000000000000000       0x6c ./Src/sysmem.o
+ .debug_info    0x0000000000000000      0x171 ./Src/sysmem.o
+ .debug_abbrev  0x0000000000000000       0xbb ./Src/sysmem.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./Src/sysmem.o
+ .debug_ranges  0x0000000000000000       0x10 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0xff ./Src/sysmem.o
+ .debug_macro   0x0000000000000000      0xa7e ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x18 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x94 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x3c ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000      0x174 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x57 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x58 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x71 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/sysmem.o
+ .debug_macro   0x0000000000000000      0x12a ./Src/sysmem.o
+ .debug_macro   0x0000000000000000      0x23b ./Src/sysmem.o
+ .debug_macro   0x0000000000000000      0x103 ./Src/sysmem.o
+ .debug_macro   0x0000000000000000       0x6a ./Src/sysmem.o
+ .debug_macro   0x0000000000000000      0x1df ./Src/sysmem.o
+ .debug_line    0x0000000000000000      0x4e0 ./Src/sysmem.o
+ .debug_str     0x0000000000000000     0x5d81 ./Src/sysmem.o
+ .comment       0x0000000000000000       0x51 ./Src/sysmem.o
+ .debug_frame   0x0000000000000000       0x34 ./Src/sysmem.o
+ .ARM.attributes
+                0x0000000000000000       0x2e ./Src/sysmem.o
+ .text          0x0000000000000000       0x14 ./Startup/startup_stm32f411retx.o
+ .data          0x0000000000000000        0x0 ./Startup/startup_stm32f411retx.o
+ .bss           0x0000000000000000        0x0 ./Startup/startup_stm32f411retx.o
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .text          0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .data          0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .bss           0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .text.startTimer
+                0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .text.stopTimer
+                0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .text.BTimer2_Callback
+                0x0000000000000000        0xe C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000      0xa7e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0x28 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0x28 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0x8e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0x51 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000      0x103 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0x6a C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000      0x1df C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0x1c C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0xd9 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000     0x102d C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000      0x11f C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000     0xb953 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x0000000000000000       0x6d C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .text          0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .data          0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .bss           0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .text.GPIO_ReadPin
+                0x0000000000000000       0x2e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000      0xa7e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0x28 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0x28 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0x8e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0x51 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000      0x103 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0x6a C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000      0x1df C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0x1c C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0xd9 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000     0x102d C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000      0x11f C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000     0xb953 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x0000000000000000       0x6d C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .text          0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .data          0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .bss           0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000      0xa7e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x28 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x28 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x8e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x51 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000      0x103 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x6a C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000      0x1df C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x1c C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0xd9 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000     0x102d C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000      0x11f C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000     0xb953 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x6d C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000      0x11e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x0000000000000000       0x10 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .group         0x0000000000000000        0xc C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .text          0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .data          0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .bss           0x0000000000000000        0x0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000      0xa7e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0x28 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0x28 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0x8e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0x51 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000      0x103 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0x6a C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000      0x1df C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0x1c C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0x22 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0xd9 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000     0x102d C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000      0x11f C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000     0xb953 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_macro   0x0000000000000000       0x6d C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-errno.o)
+ .text.__errno  0x0000000000000000        0xc c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000000       0x20 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x28 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000000000       0x60 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0000000000000000        0x4 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memset.o)
+ .text.memset   0x0000000000000000       0x10 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000       0x20 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
+ .rodata        0x0000000000000000       0x24 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
+ .eh_frame      0x0000000000000000        0x4 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x2e c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000020000000 0x0000000000020000 xrw
+FLASH            0x0000000008000000 0x0000000000080000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+LOAD ./Src/StepMotorControlMain.o
+LOAD ./Src/syscalls.o
+LOAD ./Src/sysmem.o
+LOAD ./Startup/startup_stm32f411retx.o
+LOAD C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a
+START GROUP
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
+END GROUP
+START GROUP
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a
+END GROUP
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x0000000020020000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000000000200                _Min_Heap_Size = 0x200
+                0x0000000000000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x0000000008000000      0x198
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x198 ./Startup/startup_stm32f411retx.o
+                0x0000000008000000                g_pfnVectors
+                0x0000000008000198                . = ALIGN (0x4)
+
+.text           0x0000000008000198      0xb88
+                0x0000000008000198                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000008000198       0x40 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ *(.text*)
+ .text.main     0x00000000080001d8       0x28 ./Src/StepMotorControlMain.o
+                0x00000000080001d8                main
+ .text.initSystem
+                0x0000000008000200      0x120 ./Src/StepMotorControlMain.o
+                0x0000000008000200                initSystem
+ .text.BTimer2_Callback
+                0x0000000008000320       0x20 ./Src/StepMotorControlMain.o
+                0x0000000008000320                BTimer2_Callback
+ .text.Reset_Handler
+                0x0000000008000340       0x50 ./Startup/startup_stm32f411retx.o
+                0x0000000008000340                Reset_Handler
+ .text.Default_Handler
+                0x0000000008000390        0x2 ./Startup/startup_stm32f411retx.o
+                0x0000000008000390                RTC_Alarm_IRQHandler
+                0x0000000008000390                EXTI2_IRQHandler
+                0x0000000008000390                DebugMon_Handler
+                0x0000000008000390                SPI4_IRQHandler
+                0x0000000008000390                TIM1_CC_IRQHandler
+                0x0000000008000390                DMA2_Stream5_IRQHandler
+                0x0000000008000390                HardFault_Handler
+                0x0000000008000390                DMA1_Stream5_IRQHandler
+                0x0000000008000390                PVD_IRQHandler
+                0x0000000008000390                SDIO_IRQHandler
+                0x0000000008000390                TAMP_STAMP_IRQHandler
+                0x0000000008000390                PendSV_Handler
+                0x0000000008000390                NMI_Handler
+                0x0000000008000390                EXTI3_IRQHandler
+                0x0000000008000390                TIM1_UP_TIM10_IRQHandler
+                0x0000000008000390                I2C3_ER_IRQHandler
+                0x0000000008000390                EXTI0_IRQHandler
+                0x0000000008000390                I2C2_EV_IRQHandler
+                0x0000000008000390                DMA1_Stream2_IRQHandler
+                0x0000000008000390                FPU_IRQHandler
+                0x0000000008000390                UsageFault_Handler
+                0x0000000008000390                DMA2_Stream2_IRQHandler
+                0x0000000008000390                SPI1_IRQHandler
+                0x0000000008000390                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008000390                DMA2_Stream3_IRQHandler
+                0x0000000008000390                USART6_IRQHandler
+                0x0000000008000390                DMA2_Stream0_IRQHandler
+                0x0000000008000390                I2C1_EV_IRQHandler
+                0x0000000008000390                DMA1_Stream6_IRQHandler
+                0x0000000008000390                DMA1_Stream1_IRQHandler
+                0x0000000008000390                RCC_IRQHandler
+                0x0000000008000390                Default_Handler
+                0x0000000008000390                EXTI15_10_IRQHandler
+                0x0000000008000390                ADC_IRQHandler
+                0x0000000008000390                DMA1_Stream7_IRQHandler
+                0x0000000008000390                SPI5_IRQHandler
+                0x0000000008000390                DMA2_Stream7_IRQHandler
+                0x0000000008000390                I2C3_EV_IRQHandler
+                0x0000000008000390                EXTI9_5_IRQHandler
+                0x0000000008000390                RTC_WKUP_IRQHandler
+                0x0000000008000390                SPI2_IRQHandler
+                0x0000000008000390                MemManage_Handler
+                0x0000000008000390                DMA1_Stream0_IRQHandler
+                0x0000000008000390                SVC_Handler
+                0x0000000008000390                EXTI4_IRQHandler
+                0x0000000008000390                WWDG_IRQHandler
+                0x0000000008000390                OTG_FS_WKUP_IRQHandler
+                0x0000000008000390                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008000390                EXTI1_IRQHandler
+                0x0000000008000390                USART2_IRQHandler
+                0x0000000008000390                I2C2_ER_IRQHandler
+                0x0000000008000390                DMA2_Stream1_IRQHandler
+                0x0000000008000390                FLASH_IRQHandler
+                0x0000000008000390                DMA2_Stream4_IRQHandler
+                0x0000000008000390                BusFault_Handler
+                0x0000000008000390                USART1_IRQHandler
+                0x0000000008000390                OTG_FS_IRQHandler
+                0x0000000008000390                SPI3_IRQHandler
+                0x0000000008000390                DMA1_Stream4_IRQHandler
+                0x0000000008000390                I2C1_ER_IRQHandler
+                0x0000000008000390                DMA2_Stream6_IRQHandler
+                0x0000000008000390                DMA1_Stream3_IRQHandler
+ *fill*         0x0000000008000392        0x2 
+ .text.__NVIC_EnableIRQ
+                0x0000000008000394       0x38 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .text.__NVIC_SetPriority
+                0x00000000080003cc       0x54 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .text.BTimer_Config
+                0x0000000008000420      0x170 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                0x0000000008000420                BTimer_Config
+ .text.BTimer3_Callback
+                0x0000000008000590        0xe C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                0x0000000008000590                BTimer3_Callback
+ .text.BTimer4_Callback
+                0x000000000800059e        0xe C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                0x000000000800059e                BTimer4_Callback
+ .text.BTimer5_Callback
+                0x00000000080005ac        0xe C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                0x00000000080005ac                BTimer5_Callback
+ .text.TIM2_IRQHandler
+                0x00000000080005ba       0x1c C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                0x00000000080005ba                TIM2_IRQHandler
+ *fill*         0x00000000080005d6        0x2 
+ .text.TIM3_IRQHandler
+                0x00000000080005d8       0x1c C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                0x00000000080005d8                TIM3_IRQHandler
+ .text.TIM4_IRQHandler
+                0x00000000080005f4       0x1c C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                0x00000000080005f4                TIM4_IRQHandler
+ .text.TIM5_IRQHandler
+                0x0000000008000610       0x1c C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                0x0000000008000610                TIM5_IRQHandler
+ .text.GPIO_Config
+                0x000000000800062c      0x250 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+                0x000000000800062c                GPIO_Config
+ .text.GPIO_WritePin
+                0x000000000800087c       0x54 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+                0x000000000800087c                GPIO_WritePin
+ .text.moveStepMotor
+                0x00000000080008d0      0x2b0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+                0x00000000080008d0                moveStepMotor
+ .text.__NVIC_EnableIRQ
+                0x0000000008000b80       0x38 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .text.config_SysTickMs
+                0x0000000008000bb8       0x60 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+                0x0000000008000bb8                config_SysTickMs
+ .text.getTicksMs
+                0x0000000008000c18       0x18 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+                0x0000000008000c18                getTicksMs
+ .text.SysTick_Handler
+                0x0000000008000c30       0x40 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+                0x0000000008000c30                SysTick_Handler
+ .text.delay_ms
+                0x0000000008000c70       0x50 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+                0x0000000008000c70                delay_ms
+ .text.__libc_init_array
+                0x0000000008000cc0       0x48 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-init.o)
+                0x0000000008000cc0                __libc_init_array
+ *(.glue_7)
+ .glue_7        0x0000000008000d08        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008000d08        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0000000008000d08        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ *(.init)
+ .init          0x0000000008000d08        0x4 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x0000000008000d08                _init
+ .init          0x0000000008000d0c        0x8 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x0000000008000d14        0x4 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x0000000008000d14                _fini
+ .fini          0x0000000008000d18        0x8 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x0000000008000d20                . = ALIGN (0x4)
+                0x0000000008000d20                _etext = .
+
+.vfp11_veneer   0x0000000008000d20        0x0
+ .vfp11_veneer  0x0000000008000d20        0x0 linker stubs
+
+.v4_bx          0x0000000008000d20        0x0
+ .v4_bx         0x0000000008000d20        0x0 linker stubs
+
+.iplt           0x0000000008000d20        0x0
+ .iplt          0x0000000008000d20        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+
+.rel.dyn        0x0000000008000d20        0x0
+ .rel.iplt      0x0000000008000d20        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+
+.rodata         0x0000000008000d20        0x0
+                0x0000000008000d20                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+                0x0000000008000d20                . = ALIGN (0x4)
+
+.ARM.extab      0x0000000008000d20        0x0
+                0x0000000008000d20                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000008000d20                . = ALIGN (0x4)
+
+.ARM            0x0000000008000d20        0x0
+                0x0000000008000d20                . = ALIGN (0x4)
+                0x0000000008000d20                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000000008000d20                __exidx_end = .
+                0x0000000008000d20                . = ALIGN (0x4)
+
+.preinit_array  0x0000000008000d20        0x0
+                0x0000000008000d20                . = ALIGN (0x4)
+                0x0000000008000d20                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x0000000008000d20                PROVIDE (__preinit_array_end = .)
+                0x0000000008000d20                . = ALIGN (0x4)
+
+.init_array     0x0000000008000d20        0x4
+                0x0000000008000d20                . = ALIGN (0x4)
+                0x0000000008000d20                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x0000000008000d20        0x4 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0000000008000d24                PROVIDE (__init_array_end = .)
+                0x0000000008000d24                . = ALIGN (0x4)
+
+.fini_array     0x0000000008000d24        0x4
+                0x0000000008000d24                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x0000000008000d24        0x4 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x0000000008000d28                . = ALIGN (0x4)
+                0x0000000008000d28                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000        0x4 load address 0x0000000008000d28
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.step     0x0000000020000000        0x1 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+                0x0000000020000000                step
+ *(.RamFunc)
+ *(.RamFunc*)
+                0x0000000020000004                . = ALIGN (0x4)
+ *fill*         0x0000000020000001        0x3 
+                0x0000000020000004                _edata = .
+
+.igot.plt       0x0000000020000004        0x0 load address 0x0000000008000d2c
+ .igot.plt      0x0000000020000004        0x0 c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0000000020000004                . = ALIGN (0x4)
+
+.bss            0x0000000020000008       0x90 load address 0x0000000008000d2c
+                0x0000000020000008                _sbss = .
+                0x0000000020000008                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x0000000020000008       0x1c c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ *(.bss*)
+ .bss.handlerStateLED
+                0x0000000020000024        0xc ./Src/StepMotorControlMain.o
+                0x0000000020000024                handlerStateLED
+ .bss.handlerStateLedTimer
+                0x0000000020000030       0x10 ./Src/StepMotorControlMain.o
+                0x0000000020000030                handlerStateLedTimer
+ .bss.IN1       0x0000000020000040        0xc ./Src/StepMotorControlMain.o
+                0x0000000020000040                IN1
+ .bss.IN2       0x000000002000004c        0xc ./Src/StepMotorControlMain.o
+                0x000000002000004c                IN2
+ .bss.IN3       0x0000000020000058        0xc ./Src/StepMotorControlMain.o
+                0x0000000020000058                IN3
+ .bss.IN4       0x0000000020000064        0xc ./Src/StepMotorControlMain.o
+                0x0000000020000064                IN4
+ .bss.StepMotor
+                0x0000000020000070       0x10 ./Src/StepMotorControlMain.o
+                0x0000000020000070                StepMotor
+ .bss.ptrTimerUsed
+                0x0000000020000080        0x4 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                0x0000000020000080                ptrTimerUsed
+ .bss.numStepsLeft
+                0x0000000020000084        0x2 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+                0x0000000020000084                numStepsLeft
+ *fill*         0x0000000020000086        0x2 
+ .bss.ticks     0x0000000020000088        0x8 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+                0x0000000020000088                ticks
+ .bss.sysTicksStart
+                0x0000000020000090        0x4 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+                0x0000000020000090                sysTicksStart
+ .bss.sysTicksEnd
+                0x0000000020000094        0x4 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+                0x0000000020000094                sysTicksEnd
+ *(COMMON)
+                0x0000000020000098                . = ALIGN (0x4)
+                0x0000000020000098                _ebss = .
+                0x0000000020000098                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x0000000020000098      0x600 load address 0x0000000008000d2c
+                0x0000000020000098                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                0x0000000020000098                PROVIDE (_end = .)
+                0x0000000020000298                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000098      0x200 
+                0x0000000020000698                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000298      0x400 
+                0x0000000020000698                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x2a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x1e c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x2e c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x000000000000004c       0x2e ./Src/StepMotorControlMain.o
+ .ARM.attributes
+                0x000000000000007a       0x21 ./Startup/startup_stm32f411retx.o
+ .ARM.attributes
+                0x000000000000009b       0x2e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .ARM.attributes
+                0x00000000000000c9       0x2e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .ARM.attributes
+                0x00000000000000f7       0x2e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .ARM.attributes
+                0x0000000000000125       0x2e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .ARM.attributes
+                0x0000000000000153       0x2e c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000181       0x1e c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+OUTPUT(StepMotorControl.elf elf32-littlearm)
+LOAD linker stubs
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
+LOAD c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
+
+.debug_info     0x0000000000000000     0x1cff
+ .debug_info    0x0000000000000000      0x570 ./Src/StepMotorControlMain.o
+ .debug_info    0x0000000000000570       0x22 ./Startup/startup_stm32f411retx.o
+ .debug_info    0x0000000000000592      0xac2 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_info    0x0000000000001054      0x4b0 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_info    0x0000000000001504      0x304 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_info    0x0000000000001808      0x4f7 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+
+.debug_abbrev   0x0000000000000000      0x7ee
+ .debug_abbrev  0x0000000000000000      0x174 ./Src/StepMotorControlMain.o
+ .debug_abbrev  0x0000000000000174       0x12 ./Startup/startup_stm32f411retx.o
+ .debug_abbrev  0x0000000000000186      0x201 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_abbrev  0x0000000000000387      0x159 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_abbrev  0x00000000000004e0      0x150 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_abbrev  0x0000000000000630      0x1be C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+
+.debug_aranges  0x0000000000000000      0x168
+ .debug_aranges
+                0x0000000000000000       0x30 ./Src/StepMotorControlMain.o
+ .debug_aranges
+                0x0000000000000030       0x28 ./Startup/startup_stm32f411retx.o
+ .debug_aranges
+                0x0000000000000058       0x80 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_aranges
+                0x00000000000000d8       0x30 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_aranges
+                0x0000000000000108       0x20 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_aranges
+                0x0000000000000128       0x40 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+
+.debug_ranges   0x0000000000000000      0x110
+ .debug_ranges  0x0000000000000000       0x20 ./Src/StepMotorControlMain.o
+ .debug_ranges  0x0000000000000020       0x20 ./Startup/startup_stm32f411retx.o
+ .debug_ranges  0x0000000000000040       0x70 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_ranges  0x00000000000000b0       0x20 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_ranges  0x00000000000000d0       0x10 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_ranges  0x00000000000000e0       0x30 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+
+.debug_macro    0x0000000000000000     0xf0a1
+ .debug_macro   0x0000000000000000      0x29e ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000029e      0xa7e ./Src/StepMotorControlMain.o
+ .debug_macro   0x0000000000000d1c       0x28 ./Src/StepMotorControlMain.o
+ .debug_macro   0x0000000000000d44       0x28 ./Src/StepMotorControlMain.o
+ .debug_macro   0x0000000000000d6c       0x22 ./Src/StepMotorControlMain.o
+ .debug_macro   0x0000000000000d8e       0x8e ./Src/StepMotorControlMain.o
+ .debug_macro   0x0000000000000e1c       0x51 ./Src/StepMotorControlMain.o
+ .debug_macro   0x0000000000000e6d      0x103 ./Src/StepMotorControlMain.o
+ .debug_macro   0x0000000000000f70       0x6a ./Src/StepMotorControlMain.o
+ .debug_macro   0x0000000000000fda      0x1df ./Src/StepMotorControlMain.o
+ .debug_macro   0x00000000000011b9       0x1c ./Src/StepMotorControlMain.o
+ .debug_macro   0x00000000000011d5       0x22 ./Src/StepMotorControlMain.o
+ .debug_macro   0x00000000000011f7       0xd9 ./Src/StepMotorControlMain.o
+ .debug_macro   0x00000000000012d0     0x102d ./Src/StepMotorControlMain.o
+ .debug_macro   0x00000000000022fd      0x11f ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000241c     0xb953 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000dd6f       0x6d ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000dddc       0x52 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000de2e       0x18 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000de46       0x3c ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000de82       0x34 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000deb6       0x16 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000decc       0x97 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000df63      0x341 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e2a4       0xfd ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e3a1       0x10 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e3b1       0x16 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e3c7       0x43 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e40a       0x34 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e43e       0x10 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e44e       0x58 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e4a6       0x71 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e517       0x1c ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e533      0x12a ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e65d       0x10 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e66d       0x1c ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e689       0x52 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e6db       0x22 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e6fd       0x10 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e70d       0x52 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e75f       0xd5 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e834       0x1c ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e850       0x3d ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e88d       0x16 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e8a3      0x145 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000e9e8       0x22 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000ea0a       0x16 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000ea20       0x35 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000ea55       0x20 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000ea75      0x11e ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000eb93       0x2e ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000ebc1       0x10 ./Src/StepMotorControlMain.o
+ .debug_macro   0x000000000000ebd1       0xdd C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x000000000000ecae       0x28 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_macro   0x000000000000ecd6       0xdd C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x000000000000edb3      0x118 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_macro   0x000000000000eecb       0xf4 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_macro   0x000000000000efbf       0xe2 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+
+.debug_line     0x0000000000000000     0x2143
+ .debug_line    0x0000000000000000      0x810 ./Src/StepMotorControlMain.o
+ .debug_line    0x0000000000000810       0x84 ./Startup/startup_stm32f411retx.o
+ .debug_line    0x0000000000000894      0x70e C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_line    0x0000000000000fa2      0x690 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_line    0x0000000000001632      0x580 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_line    0x0000000000001bb2      0x591 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+
+.debug_str      0x0000000000000000    0x54693
+ .debug_str     0x0000000000000000    0x53ea7 ./Src/StepMotorControlMain.o
+                                      0x540ad (size before relaxing)
+ .debug_str     0x0000000000053ea7       0x31 ./Startup/startup_stm32f411retx.o
+                                         0x74 (size before relaxing)
+ .debug_str     0x0000000000053ed8      0x653 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+                                      0x50168 (size before relaxing)
+ .debug_str     0x000000000005452b       0x77 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+                                      0x4fe5d (size before relaxing)
+ .debug_str     0x00000000000545a2       0x59 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+                                      0x4fdb4 (size before relaxing)
+ .debug_str     0x00000000000545fb       0x98 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+                                      0x4feb2 (size before relaxing)
+
+.comment        0x0000000000000000       0x50
+ .comment       0x0000000000000000       0x50 ./Src/StepMotorControlMain.o
+                                         0x51 (size before relaxing)
+ .comment       0x0000000000000050       0x51 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .comment       0x0000000000000050       0x51 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .comment       0x0000000000000050       0x51 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .comment       0x0000000000000050       0x51 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+
+.debug_frame    0x0000000000000000      0x3d0
+ .debug_frame   0x0000000000000000       0x68 ./Src/StepMotorControlMain.o
+ .debug_frame   0x0000000000000068      0x1c4 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(BasicTimer.o)
+ .debug_frame   0x000000000000022c       0x88 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(GPIOxDriver.o)
+ .debug_frame   0x00000000000002b4       0x38 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(StepMotorDriver.o)
+ .debug_frame   0x00000000000002ec       0xb8 C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\DriversSTM32\Debug\libDriversSTM32.a(SysTickDriver.o)
+ .debug_frame   0x00000000000003a4       0x2c c:/st/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(lib_a-init.o)

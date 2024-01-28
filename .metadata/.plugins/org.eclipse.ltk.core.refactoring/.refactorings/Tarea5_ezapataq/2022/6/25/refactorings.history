@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Tarea5_ezapataq/Src/AdcSamplingTimerMain.c&apos; to &apos;AdcPlotMain.c&apos;" description="Rename resource &apos;AdcSamplingTimerMain.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/AdcSamplingTimerMain.c" name="AdcPlotMain.c" stamp="1655305843469" updateReferences="true"/>
+</session>

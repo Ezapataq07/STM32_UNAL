@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>LightSpeedMeasurement_1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.st.stm32cube.ide.mcu.MCUProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUCubeProjectNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUCubeIdeServicesRevAev2ProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUAdvancedStructureProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUSingleCpuProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCURootProjectNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Core/Src/vl53lx_platform.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Src/vl53lx_platform.c</location>
+		</link>
+		<link>
+			<name>Core/Src/vl53lx_platform_init.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Src/vl53lx_platform_init.c</location>
+		</link>
+		<link>
+			<name>Core/Src/vl53lx_platform_ipp.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Src/vl53lx_platform_ipp.c</location>
+		</link>
+		<link>
+			<name>Core/Src/vl53lx_platform_log.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Src/vl53lx_platform_log.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/53L3A2/53l3a2.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/53L3A2/53l3a2.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_api.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_api.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_api_calibration.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_api_calibration.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_api_core.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_api_core.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_api_debug.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_api_debug.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_api_preset_modes.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_api_preset_modes.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_core.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_core.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_core_support.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_core_support.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_dmax.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_dmax.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_hist_algos_gen3.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_hist_algos_gen3.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_hist_algos_gen4.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_hist_algos_gen4.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_hist_char.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_hist_char.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_hist_core.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_hist_core.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_hist_funcs.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_hist_funcs.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_nvm.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_nvm.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_nvm_debug.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_nvm_debug.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_register_funcs.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_register_funcs.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_sigma_estimate.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_sigma_estimate.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_silicon_core.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_silicon_core.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_wait.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_wait.c</location>
+		</link>
+		<link>
+			<name>Drivers/BSP/vl53l3cx/vl53lx_xtalk.c</name>
+			<type>1</type>
+			<location>D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx/vl53lx_xtalk.c</location>
+		</link>
+	</linkedResources>
+</projectDescription>

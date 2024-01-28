@@ -1,0 +1,5 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_error_reporter.h:47:3:virtual tflite::MicroErrorReporter::~MicroErrorReporter()	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_error_reporter.cc:31:6:void {anonymous}::Log(const char*, va_list)	264	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_error_reporter.cc:63:5:virtual int tflite::MicroErrorReporter::Report(const char*, va_list)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_error_reporter.cc:47:6:)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_error_reporter.cc:56:16:tflite::ErrorReporter* tflite::GetMicroErrorReporter()	0	static

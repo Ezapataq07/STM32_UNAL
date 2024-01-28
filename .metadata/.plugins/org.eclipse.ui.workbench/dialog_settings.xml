@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="600"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="675"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<list key="orderedElements">
+			<item value="org.eclipse.epp.mpc.ui.command.showInstalled"/>
+			<item value="org.eclipse.cdt.ui.preferences.CEditorPreferencePage"/>
+			<item value="org.eclipse.ui.preferencePages.ColorsAndFonts"/>
+			<item value="org.eclipse.ui.preferencePages.Views"/>
+			<item value="org.eclipse.cdt.ui.preferences.CBuildConsolePreferences"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.preferences"/>
+		</list>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="textArray">
+			<item value="plug"/>
+			<item value="highlight"/>
+			<item value="color"/>
+			<item value="dark"/>
+			<item value="console"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\Escritorio\UNAL XI\Optoelectrónica\Proyecto\LightSpeedMeasurement2.zip"/>
+			<item value="D:\Escritorio\UNAL XI\Optoelectrónica\Proyecto\LightSpeedMeasurement1.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Sensor LiDAR 2D\2DLiDAR.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Sensor LiDAR 2D\Working.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Sensor LiDAR 2D\VL53L3CX\WorkingF411.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Sensor LiDAR 2D\VL53L3CX\NoWarningsNoErrors.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Sensor LiDAR 2D\StepMotor ESP32\StepMotorControl.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Tareas\Tarea 5\Tarea5_ezapataq.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Examen\Examen_ezapataq.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Examen\CheckpointFinalNoFPU.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Examen\CheckpointMelisimo.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Examen\CheckpointMejoras.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Examen\CheckpointMELO2.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Examen\CheckpointMELO.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Examen\Checkpoint2.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Examen\Checkpoint.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\LCD\Fail.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\I2C\Working I2C.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\ADC_MultiChannel\Working_ADC_MultiChannel.zip"/>
+			<item value="D:\Escritorio\UNAL X\Taller V\Tareas\Tarea 4\Tarea4_ezapataq.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\Descargas\ADC_USART.zip"/>
+		</list>
+	</section>
+</section>

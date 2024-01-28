@@ -1,0 +1,8 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.cc:71:14:TfLiteStatus tflite::ops::micro::split::Prepare(TfLiteContext*, TfLiteNode*)	24	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.cc:122:20:TfLiteRegistration tflite::ops::micro::Register_SPLIT()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.cc:29:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = float]	56	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.cc:29:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = signed char]	56	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.cc:29:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = short int]	56	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.cc:29:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, int) [with T = long int]	56	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.cc:86:14:TfLiteStatus tflite::ops::micro::split::Eval(TfLiteContext*, TfLiteNode*)	24	static

@@ -1,0 +1,1 @@
+../Middlewares/tensorflow/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c:75:21:arm_depthwise_separable_conv_HWC_q7_nonsquare	184	static,ignoring_inline_asm

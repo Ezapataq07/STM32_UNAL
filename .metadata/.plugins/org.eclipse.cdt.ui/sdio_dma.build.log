@@ -1,0 +1,10 @@
+12:35:22 **** Incremental Build of configuration Debug for project sdio_dma ****
+make -j8 all 
+arm-none-eabi-size   sdio_dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  62348	    484	  12172	  75004	  124fc	sdio_dma.elf
+Finished building: default.size.stdout
+ 
+
+12:35:22 Build Finished. 0 errors, 0 warnings. (took 370ms)
+

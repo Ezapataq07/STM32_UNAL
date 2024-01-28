@@ -1,0 +1,17 @@
+19:03:35 **** Incremental Build of configuration Debug for project UsartDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PruebaMain.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/UsartDriver/Drivers/Src" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/UsartDriver/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PruebaMain.d" -MT"Src/PruebaMain.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/PruebaMain.o"
+arm-none-eabi-gcc -o "UsartDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\UsartDriver\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UsartDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UsartDriver.elf
+ 
+arm-none-eabi-size   UsartDriver.elf 
+arm-none-eabi-objdump -h -S  UsartDriver.elf  > "UsartDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   2236	      8	   1568	   3812	    ee4	UsartDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: UsartDriver.list
+ 
+
+19:03:35 Build Finished. 0 errors, 0 warnings. (took 606ms)
+

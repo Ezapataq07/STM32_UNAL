@@ -1,0 +1,26 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:129:14:void* tflite::MicroContextAllocatePersistentBuffer(TfLiteContext*, size_t)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:133:21:TfLiteStatus tflite::MicroContextRequestScratchBufferInArena(TfLiteContext*, size_t, int*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:138:14:void* tflite::MicroContextGetScratchBuffer(TfLiteContext*, int)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:141:22:TfLiteTensor* tflite::MicroContextGetTensor(const TfLiteContext*, int)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:145:26:TfLiteEvalTensor* tflite::MicroContextGetEvalTensor(const TfLiteContext*, int)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:149:31:TfLiteExternalContext* tflite::MicroContextGetExternalContext(TfLiteContext*, TfLiteExternalContextType)	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	0	static
+../Middlewares/tensorflow/tensorflow/lite/schema/schema_generated.h:1394:20:const char* tflite::EnumNameBuiltinOperator(tflite::BuiltinOperator)	0	static
+../Middlewares/tensorflow/tensorflow/lite/schema/schema_generated.h:13158:69:const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >* tflite::Model::subgraphs() const	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:37:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, uint8_t*, size_t, tflite::ErrorReporter*, tflite::MicroResourceVariables*, tflite::MicroProfiler*)	32	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:59:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, tflite::MicroAllocator*, tflite::ErrorReporter*, tflite::MicroResourceVariables*, tflite::MicroProfiler*)	32	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:84:6:void tflite::MicroInterpreter::Init(tflite::MicroProfiler*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:335:14:TfLiteStatus tflite::MicroInterpreter::SetMicroExternalContext(void*)	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = long int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::SubGraph>]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:50:26:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<long int>*]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.h:84:10:size_t tflite::MicroInterpreter::inputs_size() const	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:299:15:TfLiteTensor* tflite::MicroInterpreter::input(size_t)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.h:102:10:size_t tflite::MicroInterpreter::outputs_size() const	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:310:15:TfLiteTensor* tflite::MicroInterpreter::output(size_t)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:78:1:tflite::MicroInterpreter::~MicroInterpreter()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:94:14:TfLiteStatus tflite::MicroInterpreter::PrepareNodeAndRegistrationDataFromFlatbuffer()	88	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:322:14:TfLiteStatus tflite::MicroInterpreter::Reset()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:331:14:TfLiteStatus tflite::MicroInterpreter::ResetVariableTensors()	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:188:14:TfLiteStatus tflite::MicroInterpreter::AllocateTensors()	48	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:284:14:TfLiteStatus tflite::MicroInterpreter::Invoke()	8	static

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IntroFPU/Src/Examen_ezapataq.c&apos; to &apos;IntroFPU.c&apos;" description="Rename resource &apos;Examen_ezapataq.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/Examen_ezapataq.c" name="IntroFPU.c" stamp="1654537982275" updateReferences="true"/>
+</session>

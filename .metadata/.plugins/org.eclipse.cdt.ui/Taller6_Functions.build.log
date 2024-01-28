@@ -1,0 +1,10 @@
+10:16:26 **** Build of configuration Debug for project Taller6_Functions ****
+make -j8 all 
+arm-none-eabi-size   Taller6_Functions.elf 
+   text	   data	    bss	    dec	    hex	filename
+    780	      8	   1568	   2356	    934	Taller6_Functions.elf
+Finished building: default.size.stdout
+ 
+
+10:16:26 Build Finished. 0 errors, 0 warnings. (took 161ms)
+

@@ -1,0 +1,13 @@
+C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Src/BasicTimer.c:17:6:BTimer_Config	16	static,ignoring_inline_asm
+../Src/BasicTimer.c:98:6:startTimer	16	static
+../Src/BasicTimer.c:103:6:stopTimer	16	static
+../Src/BasicTimer.c:108:28:BTimer2_Callback	4	static,ignoring_inline_asm
+../Src/BasicTimer.c:112:28:BTimer3_Callback	4	static,ignoring_inline_asm
+../Src/BasicTimer.c:116:28:BTimer4_Callback	4	static,ignoring_inline_asm
+../Src/BasicTimer.c:120:28:BTimer5_Callback	4	static,ignoring_inline_asm
+../Src/BasicTimer.c:125:6:TIM2_IRQHandler	8	static
+../Src/BasicTimer.c:132:6:TIM3_IRQHandler	8	static
+../Src/BasicTimer.c:138:6:TIM4_IRQHandler	8	static
+../Src/BasicTimer.c:145:6:TIM5_IRQHandler	8	static

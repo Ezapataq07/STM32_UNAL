@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IntroI2C/Src/StepMotorControlMain.c&apos; to &apos;IntroI2C_Main.c&apos;" description="Rename resource &apos;StepMotorControlMain.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/StepMotorControlMain.c" name="IntroI2C_Main.c" stamp="1653605165011" updateReferences="true"/>
+</session>

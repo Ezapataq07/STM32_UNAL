@@ -1,0 +1,15 @@
+1655301226055	Delete resource 'Tarea5_ezapataq/AdcMultiChannel Debug.launch'
+1655301232541	Delete resource 'Tarea5_ezapataq/Src/AdcMultiChannelMain.c'
+1655494617215	Delete 58 resources
+1655495786037	Delete resource 'VL53L3CX_SimpleRanging_F411/Platform/Src/vl53lx_platform.c'
+1655496066210	Delete resource 'VL53L3CX_SimpleRanging_F411/Platform'
+1655496282821	Delete resource 'VL53L3CX_SimpleRanging_F411/Core/Inc/vl53lx_platform_user_data.h'
+1655496404938	Delete 6 resources
+1655558793845	Delete 4 resources
+1655559417789	Delete 9 resources
+1655559448115	Delete resource 'VL53L3CX_SimpleRanging_F411/Drivers/BSP/53L3A2/53l3a2.h'
+1655559450887	Delete resource 'VL53L3CX_SimpleRanging_F411/Drivers/BSP/53L3A2/53l3a2.c'
+1655559486644	Delete 58 resources
+1655560774154	Delete resource 'VL53L3CX_SimpleRanging_F411/Drivers/STM32F4xx_HAL_Driver/Inc'
+1655566918648	Delete resource 'VL53L3CX_SimpleRanging_F411/Core/Src/USARTxDriver.c'
+1655566923053	Delete resource 'VL53L3CX_SimpleRanging_F411/Core/Src/USARTxDriver.h'

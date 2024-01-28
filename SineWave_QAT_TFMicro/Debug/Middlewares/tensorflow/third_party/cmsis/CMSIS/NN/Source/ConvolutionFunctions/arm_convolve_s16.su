@@ -1,0 +1,2 @@
+../Middlewares/tensorflow/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s16.c:51:21:arm_convolve_s16	264	static
+../Middlewares/tensorflow/third_party/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s16.c:147:9:arm_convolve_s16_get_buffer_size	0	static

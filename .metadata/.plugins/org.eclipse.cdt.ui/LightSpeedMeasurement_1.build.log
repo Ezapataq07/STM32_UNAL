@@ -1,0 +1,17 @@
+17:00:54 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_1 ****
+make all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/53L3A2" -I"D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx" -I"D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Inc" -I"D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/STM32F4xx_HAL_Driver/Inc" -I../Drivers/MyDrivers -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_1\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_1.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 114608	    536	  15856	 131000	  1ffb8	LightSpeedMeasurement_1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_1.elf  > "LightSpeedMeasurement_1.list"
+Finished building: LightSpeedMeasurement_1.list
+ 
+
+17:00:58 Build Finished. 0 errors, 0 warnings. (took 3s.976ms)
+

@@ -1,0 +1,6 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.cc:115:14:TfLiteStatus tflite::{anonymous}::EluPrepare(TfLiteContext*, TfLiteNode*)	56	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.cc:107:7:void* tflite::{anonymous}::EluInit(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:312:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.cc:119:14:TfLiteStatus tflite::{anonymous}::EluEval(TfLiteContext*, TfLiteNode*)	72	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.cc:146:20:TfLiteRegistration tflite::Register_ELU()	16	static

@@ -1,0 +1,19 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cc:36:3:T tflite::{anonymous}::SquaredDifference(T, T) [with T = float]	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cc:36:3:T tflite::{anonymous}::SquaredDifference(T, T) [with T = long int]	0	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/integer_ops/add.h:27:13:void tflite::reference_integer_ops::CheckArithmeticParams(const tflite::ArithmeticParams&)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cc:41:7:void* tflite::{anonymous}::SquaredDifferenceInit(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cc:47:14:TfLiteStatus tflite::{anonymous}::SquaredDifferencePrepare(TfLiteContext*, TfLiteNode*)	80	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:86:7:int tflite::RuntimeShape::FlatSize() const	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:99:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:322:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	32	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:237:16:int32_t tflite::MultiplyByQuantizedMultiplierSmallerThanOneExp(int32_t, int32_t, int)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cc:137:15:int8_t tflite::{anonymous}::SquaredDifference(int8_t, int8_t, const tflite::ArithmeticParams&)	16	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:868:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<4>&, int, int, int, int)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cc:242:20:TfLiteRegistration tflite::Register_SQUARED_DIFFERENCE()	16	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:950:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	24	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:961:13:void tflite::NdArrayDescsForElementwiseBroadcast(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*, tflite::NdArrayDesc<N>*) [with int N = 4]	80	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/binary_function.h:30:13:void tflite::reference_ops::BroadcastBinaryFunction4DSlow(const tflite::RuntimeShape&, const T1*, const tflite::RuntimeShape&, const T2*, const tflite::RuntimeShape&, R*, R (*)(T1, T2)) [with R = float; T1 = float; T2 = float]	160	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/binary_function.h:30:13:void tflite::reference_ops::BroadcastBinaryFunction4DSlow(const tflite::RuntimeShape&, const T1*, const tflite::RuntimeShape&, const T2*, const tflite::RuntimeShape&, R*, R (*)(T1, T2)) [with R = long int; T1 = long int; T2 = long int]	160	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cc:214:14:TfLiteStatus tflite::{anonymous}::SquaredDifferenceEval(TfLiteContext*, TfLiteNode*)	424	static

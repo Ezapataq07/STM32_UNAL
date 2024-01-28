@@ -1,0 +1,4 @@
+../Src/IntroI2C_Main.c:65:5:main	16	static
+../Src/IntroI2C_Main.c:116:6:initSystem	8	static
+../Src/IntroI2C_Main.c:204:6:Usart2_RX_Callback	8	static
+../Src/IntroI2C_Main.c:209:6:BTimer2_Callback	4	static

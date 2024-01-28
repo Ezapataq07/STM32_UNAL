@@ -1,0 +1,10 @@
+15:43:59 **** Build of configuration Debug for project USART_TX_Interrupt ****
+make -j8 all 
+arm-none-eabi-size   USART_TX_Interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3372	      8	   1768	   5148	   141c	USART_TX_Interrupt.elf
+Finished building: default.size.stdout
+ 
+
+15:43:59 Build Finished. 0 errors, 0 warnings. (took 590ms)
+

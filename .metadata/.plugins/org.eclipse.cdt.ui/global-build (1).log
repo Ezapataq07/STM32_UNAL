@@ -1,0 +1,98 @@
+17:28:36 **** Incremental Build of configuration Debug for project AdcSamplingTimer ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/AdcSamplingTimerMain.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Src" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/AdcSamplingTimerMain.d" -MT"Src/AdcSamplingTimerMain.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/AdcSamplingTimerMain.o"
+arm-none-eabi-gcc -o "AdcSamplingTimer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\AdcSamplingTimer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AdcSamplingTimer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: AdcSamplingTimer.elf
+ 
+arm-none-eabi-size   AdcSamplingTimer.elf 
+arm-none-eabi-objdump -h -S  AdcSamplingTimer.elf  > "AdcSamplingTimer.list"
+   text	   data	    bss	    dec	    hex	filename
+   7760	    128	   2864	  10752	   2a00	AdcSamplingTimer.elf
+Finished building: default.size.stdout
+ 
+Finished building: AdcSamplingTimer.list
+ 
+17:29:12 **** Incremental Build of configuration Debug for project AdcSamplingTimer ****
+make -j8 all 
+arm-none-eabi-size   AdcSamplingTimer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7760	    128	   2864	  10752	   2a00	AdcSamplingTimer.elf
+Finished building: default.size.stdout
+ 
+17:30:29 **** Incremental Build of configuration Debug for project AdcSamplingTimer ****
+make -j8 all 
+arm-none-eabi-size   AdcSamplingTimer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7760	    128	   2864	  10752	   2a00	AdcSamplingTimer.elf
+Finished building: default.size.stdout
+ 
+17:32:12 **** Incremental Build of configuration Debug for project AdcSamplingTimer ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/AdcSamplingTimerMain.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Src" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/AdcSamplingTimerMain.d" -MT"Src/AdcSamplingTimerMain.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/AdcSamplingTimerMain.o"
+arm-none-eabi-gcc -o "AdcSamplingTimer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\AdcSamplingTimer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AdcSamplingTimer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: AdcSamplingTimer.elf
+ 
+arm-none-eabi-size   AdcSamplingTimer.elf 
+arm-none-eabi-objdump -h -S  AdcSamplingTimer.elf  > "AdcSamplingTimer.list"
+   text	   data	    bss	    dec	    hex	filename
+   7712	    128	   2864	  10704	   29d0	AdcSamplingTimer.elf
+Finished building: default.size.stdout
+ 
+Finished building: AdcSamplingTimer.list
+ 
+17:34:32 **** Incremental Build of configuration Debug for project AdcSamplingTimer ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/AdcSamplingTimerMain.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Src" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/AdcSamplingTimerMain.d" -MT"Src/AdcSamplingTimerMain.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/AdcSamplingTimerMain.o"
+arm-none-eabi-gcc -o "AdcSamplingTimer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\AdcSamplingTimer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AdcSamplingTimer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: AdcSamplingTimer.elf
+ 
+arm-none-eabi-size   AdcSamplingTimer.elf 
+arm-none-eabi-objdump -h -S  AdcSamplingTimer.elf  > "AdcSamplingTimer.list"
+   text	   data	    bss	    dec	    hex	filename
+   7712	    128	   2864	  10704	   29d0	AdcSamplingTimer.elf
+Finished building: default.size.stdout
+ 
+Finished building: AdcSamplingTimer.list
+ 
+17:53:12 **** Incremental Build of configuration Debug for project AdcSamplingTimer ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/AdcSamplingTimerMain.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Src" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/AdcSamplingTimerMain.d" -MT"Src/AdcSamplingTimerMain.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/AdcSamplingTimerMain.o"
+arm-none-eabi-gcc -o "AdcSamplingTimer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\AdcSamplingTimer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AdcSamplingTimer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: AdcSamplingTimer.elf
+ 
+arm-none-eabi-size   AdcSamplingTimer.elf 
+arm-none-eabi-objdump -h -S  AdcSamplingTimer.elf  > "AdcSamplingTimer.list"
+   text	   data	    bss	    dec	    hex	filename
+   7716	    128	   2864	  10708	   29d4	AdcSamplingTimer.elf
+Finished building: default.size.stdout
+ 
+Finished building: AdcSamplingTimer.list
+ 
+22:09:58 **** Build of configuration Debug for project ADC_Continua ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/ADC_ContinuaMain.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/ADC_Continua/Src" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/ADC_Continua/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/ADC_ContinuaMain.d" -MT"Src/ADC_ContinuaMain.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/ADC_ContinuaMain.o"
+arm-none-eabi-gcc -o "ADC_Continua.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\ADC_Continua\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Continua.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Continua.elf
+ 
+arm-none-eabi-size   ADC_Continua.elf 
+arm-none-eabi-objdump -h -S  ADC_Continua.elf  > "ADC_Continua.list"
+   text	   data	    bss	    dec	    hex	filename
+   7636	    128	   1824	   9588	   2574	ADC_Continua.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Continua.list
+ 
+22:10:45 **** Incremental Build of configuration Debug for project AdcSamplingTimer ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/AdcSamplingTimerMain.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Src" -I"C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/AdcSamplingTimer/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/AdcSamplingTimerMain.d" -MT"Src/AdcSamplingTimerMain.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/AdcSamplingTimerMain.o"
+arm-none-eabi-gcc -o "AdcSamplingTimer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\AdcSamplingTimer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AdcSamplingTimer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: AdcSamplingTimer.elf
+ 
+arm-none-eabi-size   AdcSamplingTimer.elf 
+arm-none-eabi-objdump -h -S  AdcSamplingTimer.elf  > "AdcSamplingTimer.list"
+   text	   data	    bss	    dec	    hex	filename
+   7716	    128	   2864	  10708	   29d4	AdcSamplingTimer.elf
+Finished building: default.size.stdout
+ 
+Finished building: AdcSamplingTimer.list
+ 

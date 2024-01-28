@@ -1,0 +1,4 @@
+../Src/StepMotorDriver.c:22:9:moveStepMotor	16	static
+../Src/StepMotorDriver.c:158:6:initStepMotor	16	static
+../Src/StepMotorDriver.c:173:6:Exti7_Callback	4	static
+../Src/StepMotorDriver.c:177:6:Exti13_Callback	8	static

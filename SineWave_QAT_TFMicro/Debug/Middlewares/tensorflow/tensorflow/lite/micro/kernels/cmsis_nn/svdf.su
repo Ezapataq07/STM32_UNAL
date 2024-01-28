@@ -1,0 +1,7 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:35:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:40:14:TfLiteStatus tflite::{anonymous}::EvalIntegerSVDF(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, TfLiteEvalTensor*, TfLiteEvalTensor*, const tflite::OpDataSvdf&)	256	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:148:14:TfLiteStatus tflite::{anonymous}::EvalSvdf(TfLiteContext*, TfLiteNode*)	72	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:191:14:TfLiteStatus tflite::{anonymous}::EvalSvdfInt8(TfLiteContext*, TfLiteNode*)	72	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:222:20:TfLiteRegistration tflite::Register_SVDF()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:226:20:TfLiteRegistration tflite::Register_SVDF_INT8()	16	static

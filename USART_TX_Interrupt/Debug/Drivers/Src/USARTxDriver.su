@@ -1,0 +1,15 @@
+C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+C:/Users/ezque/STM32CubeIDE/workspace_1.9.0/mcu_headers/CMSIS/Include/core_cm4.h:1724:22:__NVIC_DisableIRQ	16	static,ignoring_inline_asm
+../Drivers/Src/USARTxDriver.c:19:6:USART_Config	16	static,ignoring_inline_asm
+../Drivers/Src/USARTxDriver.c:207:6:writeChar	16	static,ignoring_inline_asm
+../Drivers/Src/USARTxDriver.c:222:6:readChar	24	static
+../Drivers/Src/USARTxDriver.c:228:6:getRxData	4	static
+../Drivers/Src/USARTxDriver.c:238:28:Usart1_TX_Callback	4	static,ignoring_inline_asm
+../Drivers/Src/USARTxDriver.c:242:28:Usart2_TX_Callback	4	static,ignoring_inline_asm
+../Drivers/Src/USARTxDriver.c:246:28:Usart6_TX_Callback	4	static,ignoring_inline_asm
+../Drivers/Src/USARTxDriver.c:250:28:Usart1_RX_Callback	4	static,ignoring_inline_asm
+../Drivers/Src/USARTxDriver.c:254:28:Usart2_RX_Callback	4	static,ignoring_inline_asm
+../Drivers/Src/USARTxDriver.c:258:28:Usart6_RX_Callback	4	static,ignoring_inline_asm
+../Drivers/Src/USARTxDriver.c:265:6:USART1_IRQHandler	8	static
+../Drivers/Src/USARTxDriver.c:278:6:USART2_IRQHandler	8	static
+../Drivers/Src/USARTxDriver.c:291:6:USART6_IRQHandler	8	static

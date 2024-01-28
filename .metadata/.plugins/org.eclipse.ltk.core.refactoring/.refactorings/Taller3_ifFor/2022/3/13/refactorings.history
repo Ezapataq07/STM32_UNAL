@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Taller3_ifFor/Src/Taller3Main.c&apos; to &apos;Taller3IfMain.c&apos;" description="Rename resource &apos;Taller3Main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/Taller3Main.c" name="Taller3IfMain.c" stamp="1648235591581" updateReferences="true"/>
+</session>

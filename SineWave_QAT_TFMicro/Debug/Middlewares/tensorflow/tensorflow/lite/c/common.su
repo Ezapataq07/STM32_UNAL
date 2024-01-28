@@ -1,0 +1,6 @@
+../Middlewares/tensorflow/tensorflow/lite/c/common.cc:30:8:size_t TfLiteIntArrayGetSizeInBytes(int)	0	static
+../Middlewares/tensorflow/tensorflow/lite/c/common.cc:47:5:int TfLiteIntArrayEqualsArray(const TfLiteIntArray*, int, const int*)	12	static
+../Middlewares/tensorflow/tensorflow/lite/c/common.cc:41:5:int TfLiteIntArrayEqual(const TfLiteIntArray*, const TfLiteIntArray*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/c/common.cc:81:5:int TfLiteFloatArrayGetSizeInBytes(int)	0	static
+../Middlewares/tensorflow/tensorflow/lite/c/common.cc:242:13:const char* TfLiteTypeGetName(TfLiteType)	0	static
+../Middlewares/tensorflow/tensorflow/lite/c/common.cc:284:16:TfLiteDelegate TfLiteDelegateCreate()	8	static

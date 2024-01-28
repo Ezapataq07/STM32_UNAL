@@ -1,0 +1,4 @@
+../Src/I2C_BurstMain.c:68:5:main	16	static
+../Src/I2C_BurstMain.c:117:6:initSystem	8	static
+../Src/I2C_BurstMain.c:205:6:Usart2_RX_Callback	8	static
+../Src/I2C_BurstMain.c:210:6:BTimer2_Callback	4	static

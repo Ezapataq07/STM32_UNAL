@@ -1,0 +1,5 @@
+"./Src/Asesoria1.o"
+"./Src/Calculadora.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f411retx.o"

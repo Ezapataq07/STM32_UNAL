@@ -1,0 +1,9 @@
+../Src/Examen_ezapataq.c:97:5:main	16	static
+../Src/Examen_ezapataq.c:198:6:initSystem	8	static
+../Src/Examen_ezapataq.c:336:6:parseCommands	32	static
+../Src/Examen_ezapataq.c:503:6:servoPartyMode	24	static
+../Src/Examen_ezapataq.c:541:6:BTimer2_Callback	8	static
+../Src/Examen_ezapataq.c:558:6:BTimer4_Callback	4	static
+../Src/Examen_ezapataq.c:566:6:Usart1_RX_Callback	8	static
+../Src/Examen_ezapataq.c:570:6:Usart1_TX_Callback	4	static,ignoring_inline_asm
+../Src/Examen_ezapataq.c:574:6:adcComplete_Callback	16	static

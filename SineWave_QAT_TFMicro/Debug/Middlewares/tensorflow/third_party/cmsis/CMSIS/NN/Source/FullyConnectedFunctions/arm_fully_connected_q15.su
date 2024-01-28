@@ -1,0 +1,1 @@
+../Middlewares/tensorflow/third_party/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c:65:21:arm_fully_connected_q15	88	static,ignoring_inline_asm

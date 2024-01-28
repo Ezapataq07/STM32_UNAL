@@ -1,0 +1,5 @@
+../Src/ServoMotorPwmMain.c:46:5:main	8	static
+../Src/ServoMotorPwmMain.c:88:6:initSystem	8	static
+../Src/ServoMotorPwmMain.c:164:6:BTimer2_Callback	4	static
+../Src/ServoMotorPwmMain.c:169:6:Usart2_RX_Callback	8	static
+../Src/ServoMotorPwmMain.c:174:6:Usart2_TX_Callback	4	static,ignoring_inline_asm

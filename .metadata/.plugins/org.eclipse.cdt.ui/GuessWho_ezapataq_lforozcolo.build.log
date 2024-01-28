@@ -1,0 +1,57 @@
+16:44:52 **** Build of configuration Debug for project GuessWho_ezapataq_lforozcolo ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f411retx.d" -MT"Startup/startup_stm32f411retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f411retx.o" "../Startup/startup_stm32f411retx.s"
+arm-none-eabi-gcc "../Src/GuessWhoMain.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GuessWhoMain.d" -MT"Src/GuessWhoMain.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/GuessWhoMain.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+../Src/GuessWhoMain.c: In function 'main':
+../Src/GuessWhoMain.c:103:14: warning: unused variable 'negativeNumber2' [-Wunused-variable]
+  103 |  signed char negativeNumber2 = uniqueNumber2();
+      |              ^~~~~~~~~~~~~~~
+../Src/GuessWhoMain.c:101:14: warning: unused variable 'negativeNumber' [-Wunused-variable]
+  101 |  signed char negativeNumber = uniqueNumber();   // La variable negativeNumber toma el valor que retorna la función uniqueNumber
+      |              ^~~~~~~~~~~~~~
+../Src/GuessWhoMain.c:99:15: warning: unused variable 'facesSetTotal' [-Wunused-variable]
+   99 |  unsigned int facesSetTotal= totalSet(facesSetComplete1, facesSetComplete2); // La variable facesSetTotal toma el valor que retorna la función totalSet aplicada a
+      |               ^~~~~~~~~~~~~
+../Src/GuessWhoMain.c:96:17: warning: unused variable 'posMixFaces' [-Wunused-variable]
+   96 |  unsigned short posMixFaces = mixFaces (facesSetComplete1, facesSetComplete2);  // La variable posMixFaces toma el valor que retorna la función mixFaces
+      |                 ^~~~~~~~~~~
+../Src/GuessWhoMain.c:94:17: warning: unused variable 'posFemaleFaces' [-Wunused-variable]
+   94 |  unsigned short posFemaleFaces = femaleFaces (facesSetComplete1, facesSetComplete2); // La variable posFemaleFaces toma el valor que retorna la función femaleFaces
+      |                 ^~~~~~~~~~~~~~
+../Src/GuessWhoMain.c:92:17: warning: unused variable 'posMaleFaces' [-Wunused-variable]
+   92 |  unsigned short posMaleFaces = maleFaces (facesSetComplete1, facesSetComplete2);  // La variable posMaleFaces toma el valor que retorna la función maleFaces
+      |                 ^~~~~~~~~~~~
+../Src/GuessWhoMain.c:89:17: warning: unused variable 'posFGlasses2' [-Wunused-variable]
+   89 |  unsigned short posFGlasses2 = getPosFGlasses2(facesSetComplete2); // La variable posFGlasses2 toma el valor que retorna la función getPosFGlasses2 aplicada a
+      |                 ^~~~~~~~~~~~
+../Src/GuessWhoMain.c:87:17: warning: unused variable 'posMGlasses2' [-Wunused-variable]
+   87 |  unsigned short posMGlasses2 = getPosMGlasses2(facesSetComplete2); // La variable posMGlasses2 toma el valor que retorna la función getPosMGlasses2 aplicada a
+      |                 ^~~~~~~~~~~~
+../Src/GuessWhoMain.c:84:17: warning: unused variable 'posFGlasses1' [-Wunused-variable]
+   84 |  unsigned short posFGlasses1 = getPosFGlasses1(facesSetComplete1); // La variable posFGlasses1 toma el valor que retorna la función getPosFGlasses1 aplicada a
+      |                 ^~~~~~~~~~~~
+../Src/GuessWhoMain.c:82:17: warning: unused variable 'posMGlasses1' [-Wunused-variable]
+   82 |  unsigned short posMGlasses1 = getPosMGlasses1(facesSetComplete1); // La variable posMGlasses1 toma el valor que retorna la función getPosMGlasses1 aplicada a
+      |                 ^~~~~~~~~~~~
+../Src/GuessWhoMain.c:79:17: warning: unused variable 'posMustages' [-Wunused-variable]
+   79 |  unsigned short posMustages = getPosMustages(facesSetComplete1); // La variable posMustages toma el valor que retorna la función getPosMustages aplicada a
+      |                 ^~~~~~~~~~~
+../Src/GuessWhoMain.c:77:17: warning: unused variable 'posGirls' [-Wunused-variable]
+   77 |  unsigned short posGirls = getPosGirls(facesSetComplete1); // La variable posGirls toma el valor que retorna la función getPosGirls aplicada a facesSetComplete1
+      |                 ^~~~~~~~
+arm-none-eabi-gcc -o "GuessWho_ezapataq_lforozcolo.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\GuessWho_ezapataq\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GuessWho_ezapataq_lforozcolo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GuessWho_ezapataq_lforozcolo.elf
+ 
+arm-none-eabi-size   GuessWho_ezapataq_lforozcolo.elf 
+arm-none-eabi-objdump -h -S  GuessWho_ezapataq_lforozcolo.elf  > "GuessWho_ezapataq_lforozcolo.list"
+   text	   data	    bss	    dec	    hex	filename
+   1700	     12	   1572	   3284	    cd4	GuessWho_ezapataq_lforozcolo.elf
+Finished building: default.size.stdout
+ 
+Finished building: GuessWho_ezapataq_lforozcolo.list
+ 
+
+16:44:54 Build Finished. 0 errors, 12 warnings. (took 2s.265ms)
+

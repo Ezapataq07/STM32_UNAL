@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Taller4_while/Src/main.c&apos;" deleteContents="false" description="Delete resource &apos;Taller4_while/Src/main.c&apos;" element1="/Taller4_while/Src/main.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1648840459584"/>&#x0A;<refactoring comment="Delete resource &apos;IntroGPIOx/Src/main.c&apos;" deleteContents="false" description="Delete resource &apos;IntroGPIOx/Src/main.c&apos;" element1="/IntroGPIOx/Src/main.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1648897251413"/>
+</session>

@@ -1,0 +1,4 @@
+../Core/Inc/PwmDriver.c:11:6:PWM_Config	16	static
+../Core/Inc/PwmDriver.c:110:6:setPwmDuty	16	static
+../Core/Inc/PwmDriver.c:144:6:stopPWM	16	static
+../Core/Inc/PwmDriver.c:148:6:startPWM	16	static

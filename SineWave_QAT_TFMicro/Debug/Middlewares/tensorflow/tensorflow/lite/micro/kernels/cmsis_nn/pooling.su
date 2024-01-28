@@ -1,0 +1,16 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:145:14:TfLiteStatus tflite::{anonymous}::MaxPrepare(TfLiteContext*, TfLiteNode*)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:140:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:263:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:152:14:TfLiteStatus tflite::{anonymous}::AveragePrepare(TfLiteContext*, TfLiteNode*)	80	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:36:6:void tflite::{anonymous}::AverageEvalQuantized(TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	168	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:189:14:TfLiteStatus tflite::{anonymous}::AverageEval(TfLiteContext*, TfLiteNode*)	32	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:218:14:TfLiteStatus tflite::{anonymous}::AverageEvalInt8(TfLiteContext*, TfLiteNode*)	32	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:90:14:TfLiteStatus tflite::{anonymous}::MaxEvalInt8(TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::{anonymous}::OpData&, const TfLiteEvalTensor*, TfLiteEvalTensor*)	168	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:264:14:TfLiteStatus tflite::{anonymous}::MaxEvalInt8(TfLiteContext*, TfLiteNode*)	32	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:236:14:TfLiteStatus tflite::{anonymous}::MaxEval(TfLiteContext*, TfLiteNode*)	32	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:283:20:TfLiteRegistration tflite::Register_AVERAGE_POOL_2D_INT8()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:287:20:TfLiteRegistration tflite::Register_AVERAGE_POOL_2D()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:291:20:TfLiteRegistration tflite::Register_MAX_POOL_2D_INT8()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc:295:20:TfLiteRegistration tflite::Register_MAX_POOL_2D()	16	static

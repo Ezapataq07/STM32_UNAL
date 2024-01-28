@@ -1,0 +1,13 @@
+../Src/I2CDriver.c:19:6:I2C_Config	16	static,ignoring_inline_asm
+../Src/I2CDriver.c:76:6:I2C_startTransaction	16	static,ignoring_inline_asm
+../Src/I2CDriver.c:91:6:I2C_sendSlaveAddressRW	16	static,ignoring_inline_asm
+../Src/I2CDriver.c:106:6:I2C_sendMemoryAddress	16	static,ignoring_inline_asm
+../Src/I2CDriver.c:116:6:I2C_reStartTransaction	16	static,ignoring_inline_asm
+../Src/I2CDriver.c:127:6:I2C_sendNoAck	16	static
+../Src/I2CDriver.c:133:6:I2C_sendAck	16	static
+../Src/I2CDriver.c:139:6:I2C_stopTransaction	16	static
+../Src/I2CDriver.c:144:9:I2C_readDataByte	16	static,ignoring_inline_asm
+../Src/I2CDriver.c:155:6:I2C_sendDataByte	16	static,ignoring_inline_asm
+../Src/I2CDriver.c:166:9:I2C_readByte	24	static
+../Src/I2CDriver.c:198:10:I2C_readBurstBytes	32	static
+../Src/I2CDriver.c:223:6:I2C_writeByte	16	static

@@ -1,0 +1,56 @@
+/*
+ * Taller3Main.c
+ *
+ *  Created on: Mar 25, 2022
+ *      Author: ezque
+ */
+
+#define true 	1
+#define false	0
+
+int main(void){
+	// Ejemplo 1
+
+//	unsigned char age = 0;
+//	unsigned char elegible;
+//
+//	if (age < 18){
+//		elegible = false;
+//	} else {
+//		elegible = true;
+//	}
+
+	//Ejemplo 2
+
+//	unsigned char x, y, z, max;
+//	x = 90;
+//	y = 52;
+//	z = 45;
+//
+//	if (x > y && x > z){
+//		max = x;
+//	}else if (z > y && z > x){
+//		max = z;
+//	}else{
+//		max = y;
+//	}
+
+	unsigned char hora, minutos, segundos;
+	hora = 2;
+	minutos = 59;
+	segundos = 59;
+
+	if (minutos >= 59){
+			hora += 1;
+			minutos = 0;
+	}
+	if ((segundos >= 59) & (minutos == 0)){
+			minutos += 1;
+			segundos = 0;
+	} else {
+			segundos += 1;
+	}
+	return 0;
+}
+
+

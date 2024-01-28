@@ -1,0 +1,22 @@
+/*
+ * Taller3Main.c
+ *
+ *  Created on: Mar 25, 2022
+ *      Author: ezque
+ */
+
+#define true 	1
+#define false	0
+
+int main(void){
+	//Ejemplo 1
+	unsigned char age = 0;
+	unsigned char elegible;
+
+	if (age < 18){
+		elegible = false;
+	} else {
+		elegible=true;
+	}
+
+}

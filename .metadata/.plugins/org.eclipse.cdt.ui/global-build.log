@@ -1,0 +1,259 @@
+12:05:50 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36748	    488	   1856	  39092	   98b4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+12:06:07 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36748	    488	   1856	  39092	   98b4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+12:07:37 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36748	    488	   1856	  39092	   98b4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+12:08:27 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36748	    488	   1856	  39092	   98b4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+12:14:35 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36732	    488	   1856	  39076	   98a4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+12:15:38 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36732	    488	   1856	  39076	   98a4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+12:16:25 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36732	    488	   1856	  39076	   98a4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+12:17:13 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36732	    488	   1856	  39076	   98a4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+14:11:03 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36732	    488	   1856	  39076	   98a4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+14:12:21 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36732	    488	   1856	  39076	   98a4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+14:13:17 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36732	    488	   1856	  39076	   98a4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+14:16:34 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36764	    488	   1856	  39108	   98c4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+14:23:14 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36764	    488	   1856	  39108	   98c4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+14:23:36 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36764	    488	   1856	  39108	   98c4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+14:24:12 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36764	    488	   1856	  39108	   98c4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+14:39:45 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36764	    488	   1856	  39108	   98c4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+16:49:31 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36764	    488	   1856	  39108	   98c4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+16:50:24 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36764	    488	   1856	  39108	   98c4	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+15:47:14 **** Build of configuration Debug for project LightSpeedMeasurement_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_2\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_2.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_2.elf 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_2.elf  > "LightSpeedMeasurement_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  36644	    488	   1856	  38988	   984c	LightSpeedMeasurement_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: LightSpeedMeasurement_2.list
+ 
+16:50:24 **** Build of configuration Debug for project LightSpeedMeasurement_1 ****
+make all 
+arm-none-eabi-size   LightSpeedMeasurement_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 114600	    536	  15856	 130992	  1ffb0	LightSpeedMeasurement_1.elf
+Finished building: default.size.stdout
+ 
+17:00:54 **** Incremental Build of configuration Debug for project LightSpeedMeasurement_1 ****
+make all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/53L3A2" -I"D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/BSP/Components/vl53l3cx" -I"D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Inc" -I"D:/Escritorio/UNAL X/Taller V/Sensor LiDAR 2D/VL53L3CX/Software STM/en.en.bare_driver_VL53L3CX/BareDriver/VL53L3CX_API_1.2.8/example/Drivers/STM32F4xx_HAL_Driver/Inc" -I../Drivers/MyDrivers -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LightSpeedMeasurement_1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ezque\STM32CubeIDE\workspace_1.9.0\LightSpeedMeasurement_1\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightSpeedMeasurement_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LightSpeedMeasurement_1.elf
+ 
+arm-none-eabi-size   LightSpeedMeasurement_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 114608	    536	  15856	 131000	  1ffb8	LightSpeedMeasurement_1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S  LightSpeedMeasurement_1.elf  > "LightSpeedMeasurement_1.list"
+Finished building: LightSpeedMeasurement_1.list
+ 

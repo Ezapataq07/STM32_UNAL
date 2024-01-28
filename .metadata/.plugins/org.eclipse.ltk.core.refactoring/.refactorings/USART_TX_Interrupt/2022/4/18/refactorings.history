@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;USART_TX_Interrupt/Src/main.c&apos; to &apos;Eco_Main.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/main.c" name="Eco_Main.c" stamp="1651146465425" updateReferences="true"/>
+</session>
