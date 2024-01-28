@@ -1,0 +1,7 @@
+../Core/Src/main (1).c:93:5:main	24	static
+../Core/Src/main (1).c:166:6:SystemClock_Config	88	static
+../Core/Src/main (1).c:209:6:initSystem	8	static
+../Core/Src/main (1).c:282:6:Usart2_RX_Callback	8	static
+../Core/Src/main (1).c:286:6:Usart2_TX_Callback	4	static,ignoring_inline_asm
+../Core/Src/main (1).c:290:6:adcComplete_Callback	16	static
+../Core/Src/main (1).c:309:6:Error_Handler	4	static,ignoring_inline_asm

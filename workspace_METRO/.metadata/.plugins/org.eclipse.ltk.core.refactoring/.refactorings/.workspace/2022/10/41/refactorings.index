@@ -1,0 +1,7 @@
+1665161581412	Delete resource 'sdio_dma/Core/Src/BasicTimer.c'
+1665161586633	Delete resource 'sdio_dma/Core/Inc/BasicTimer.h'
+1665161592289	Delete resource 'sdio_dma/Core/Src/RccDriver.c'
+1665161602664	Delete resource 'sdio_dma/Core/Inc/RccDriver.h'
+1665163544989	Rename resource 'sdio_dma'
+1665163929877	Delete resource 'sdio_dma2/Debug/sdio_dma2.elf'
+1665163973501	Rename resource 'sdio_dma2'

@@ -1,0 +1,10 @@
+11:22:44 **** Incremental Build of configuration Debug for project sdio_spi2_ustar6 ****
+make -j8 all 
+arm-none-eabi-size   sdio_spi2_ustar6.elf 
+   text	   data	    bss	    dec	    hex	filename
+  65868	    580	  14612	  81060	  13ca4	sdio_spi2_ustar6.elf
+Finished building: default.size.stdout
+ 
+
+11:22:44 Build Finished. 0 errors, 0 warnings. (took 261ms)
+

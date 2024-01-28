@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;sdio_dma3/Debug/sdio_dma3.elf&apos;" deleteContents="false" description="Delete resource &apos;sdio_dma3/Debug/sdio_dma3.elf&apos;" element1="/sdio_dma3/Debug/sdio_dma3.elf" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1666365149408"/>
+</session>

@@ -1,0 +1,11 @@
+2022-05-05 16:54:46,771 [INFO] Activator:177 - 
+
+
+2022-05-05 16:54:46,774 [INFO] Activator:178 - !SESSION log4j initialized
+2022-05-05 16:54:49,995 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-05-05 16:56:16,292 [INFO] Activator:177 - 
+
+
+2022-05-05 16:56:16,295 [INFO] Activator:178 - !SESSION log4j initialized
+2022-05-05 16:56:19,125 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-05-05 17:05:57,505 [ERROR] AdobePublisher:183 - Exception while getting the server answer: java.net.SocketTimeoutException: Read timed out

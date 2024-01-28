@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AdcSamplingPLL/Src/AdcPLL_TestMain.c.c&apos; to &apos;AdcPLL_TestMain.c&apos;" description="Rename resource &apos;AdcPLL_TestMain.c.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/AdcPLL_TestMain.c.c" name="AdcPLL_TestMain.c" stamp="1651870070322" updateReferences="true"/>
+</session>

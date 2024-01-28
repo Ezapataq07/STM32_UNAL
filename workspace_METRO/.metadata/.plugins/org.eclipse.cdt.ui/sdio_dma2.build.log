@@ -1,0 +1,16 @@
+12:32:20 **** Incremental Build of configuration Debug for project sdio_dma2 ****
+make -j8 all 
+arm-none-eabi-gcc -o "sdio_dma2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Escritorio\UNAL XI\InvestigacionMetro\IMP23ABSU\GuardadoDatos\sdio_dma\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sdio_dma2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sdio_dma2.elf
+ 
+arm-none-eabi-size   sdio_dma2.elf 
+arm-none-eabi-objdump -h -S  sdio_dma2.elf  > "sdio_dma2.list"
+   text	   data	    bss	    dec	    hex	filename
+  57980	    504	 112168	 170652	  29a9c	sdio_dma2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sdio_dma2.list
+ 
+
+12:32:22 Build Finished. 0 errors, 0 warnings. (took 1s.519ms)
+

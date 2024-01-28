@@ -1,0 +1,6 @@
+../Src/AdcSamplingContinuousMain.c:52:5:main	24	static
+../Src/AdcSamplingContinuousMain.c:91:6:initSystem	8	static
+../Src/AdcSamplingContinuousMain.c:172:6:BTimer2_Callback	4	static
+../Src/AdcSamplingContinuousMain.c:177:6:Usart2_RX_Callback	8	static
+../Src/AdcSamplingContinuousMain.c:181:6:Usart2_TX_Callback	4	static,ignoring_inline_asm
+../Src/AdcSamplingContinuousMain.c:185:6:adcComplete_Callback	16	static

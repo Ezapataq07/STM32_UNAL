@@ -1,0 +1,8 @@
+"./Drivers/Src/AdcDriver.o"
+"./Drivers/Src/BasicTimer.o"
+"./Drivers/Src/GPIOxDriver.o"
+"./Drivers/Src/USARTxDriver.o"
+"./Src/AdcSamplingContinuousMain.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f411retx.o"

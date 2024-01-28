@@ -1,0 +1,294 @@
+15:38:45 **** Incremental Build of configuration Debug for project sdio_spi2_ustar6_mpu ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'GPS_init':
+../Core/Src/main.c:184:2: warning: implicit declaration of function 'sendGpsMsg' [-Wimplicit-function-declaration]
+  184 |  sendGpsMsg(msgSet5hz, 14);
+      |  ^~~~~~~~~~
+../Core/Src/main.c: In function 'GPS_init2':
+../Core/Src/main.c:199:2: warning: implicit declaration of function 'send_uart6' [-Wimplicit-function-declaration]
+  199 |  send_uart6(msgSet5hz);
+      |  ^~~~~~~~~~
+../Core/Src/main.c:206:2: warning: implicit declaration of function 'send_uart2' [-Wimplicit-function-declaration]
+  206 |  send_uart2(msgSet5hz);
+      |  ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:216:6: warning: conflicting types for 'sendGpsMsg'
+  216 | void sendGpsMsg(char *msg, uint8_t length)
+      |      ^~~~~~~~~~
+../Core/Src/main.c:184:2: note: previous implicit declaration of 'sendGpsMsg' was here
+  184 |  sendGpsMsg(msgSet5hz, 14);
+      |  ^~~~~~~~~~
+../Core/Src/main.c: In function 'sendGpsMsg':
+../Core/Src/main.c:221:3: warning: implicit declaration of function 'send_uart' [-Wimplicit-function-declaration]
+  221 |   send_uart (*(msg+ii));
+      |   ^~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:292:6: warning: conflicting types for 'send_uart2'
+  292 | void send_uart2 (char *string)
+      |      ^~~~~~~~~~
+../Core/Src/main.c:206:2: note: previous implicit declaration of 'send_uart2' was here
+  206 |  send_uart2(msgSet5hz);
+      |  ^~~~~~~~~~
+../Core/Src/main.c:304:6: warning: conflicting types for 'send_uart6'
+  304 | void send_uart6 (char *string)
+      |      ^~~~~~~~~~
+../Core/Src/main.c:199:2: note: previous implicit declaration of 'send_uart6' was here
+  199 |  send_uart6(msgSet5hz);
+      |  ^~~~~~~~~~
+../Core/Src/main.c:310:6: warning: conflicting types for 'send_uart'
+  310 | void send_uart (char *string)
+      |      ^~~~~~~~~
+../Core/Src/main.c:221:3: note: previous implicit declaration of 'send_uart' was here
+  221 |   send_uart (*(msg+ii));
+      |   ^~~~~~~~~
+../Core/Src/main.c: In function 'send_uart':
+../Core/Src/main.c:314:11: warning: unused variable 'len' [-Wunused-variable]
+  314 |  uint16_t len = strlen (string);
+      |           ^~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Core/Src/main.c: In function 'main':
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Stop' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:437:24: note: in expansion of macro 'TIM11'
+  437 |      HAL_TIM_Base_Stop(TIM11);
+      |                        ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1894:56: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1894 | HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+      |                                     ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Start' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:511:26: note: in expansion of macro 'TIM11'
+  511 |       HAL_TIM_Base_Start(TIM11);
+      |                          ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1893:57: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1893 | HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+      |                                      ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Stop' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:526:25: note: in expansion of macro 'TIM11'
+  526 |       HAL_TIM_Base_Stop(TIM11);
+      |                         ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1894:56: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1894 | HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+      |                                     ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Start' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:543:33: note: in expansion of macro 'TIM11'
+  543 |              HAL_TIM_Base_Start(TIM11);
+      |                                 ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1893:57: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1893 | HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+      |                                      ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Stop' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:551:24: note: in expansion of macro 'TIM11'
+  551 |      HAL_TIM_Base_Stop(TIM11);
+      |                        ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1894:56: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1894 | HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+      |                                     ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Start' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:618:28: note: in expansion of macro 'TIM11'
+  618 |         HAL_TIM_Base_Start(TIM11);
+      |                            ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1893:57: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1893 | HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+      |                                      ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Stop' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:621:29: note: in expansion of macro 'TIM11'
+  621 |           HAL_TIM_Base_Stop(TIM11);
+      |                             ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1894:56: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1894 | HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+      |                                     ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Start' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:672:25: note: in expansion of macro 'TIM11'
+  672 |      HAL_TIM_Base_Start(TIM11);
+      |                         ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1893:57: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1893 | HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+      |                                      ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Stop' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:674:20: note: in expansion of macro 'TIM11'
+  674 |  HAL_TIM_Base_Stop(TIM11);
+      |                    ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1894:56: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1894 | HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+      |                                     ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:780:29: warning: passing argument 1 of 'HAL_TIM_Base_Start' from incompatible pointer type [-Wincompatible-pointer-types]
+  780 | #define TIM11               ((TIM_TypeDef *) TIM11_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             TIM_TypeDef *
+../Core/Src/main.c:710:29: note: in expansion of macro 'TIM11'
+  710 |          HAL_TIM_Base_Start(TIM11);
+      |                             ^~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1893:57: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_TypeDef *'
+ 1893 | HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+      |                                      ~~~~~~~~~~~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "sdio_spi2_ustar6_mpu.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Escritorio\UNAL XI\InvestigacionMetro\workspace_METRO\sdio_spi2_ustar6_mpu\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sdio_spi2_ustar6_mpu.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sdio_spi2_ustar6_mpu.elf
+ 
+arm-none-eabi-size   sdio_spi2_ustar6_mpu.elf 
+arm-none-eabi-objdump -h -S  sdio_spi2_ustar6_mpu.elf  > "sdio_spi2_ustar6_mpu.list"
+   text	   data	    bss	    dec	    hex	filename
+  65292	    580	  12524	  78396	  1323c	sdio_spi2_ustar6_mpu.elf
+Finished building: default.size.stdout
+ 
+Finished building: sdio_spi2_ustar6_mpu.list
+ 
+15:38:51 **** Incremental Build of configuration Debug for project sdio_spi2_ustar6_mpu ****
+make -j8 all 
+arm-none-eabi-size   sdio_spi2_ustar6_mpu.elf 
+   text	   data	    bss	    dec	    hex	filename
+  65292	    580	  12524	  78396	  1323c	sdio_spi2_ustar6_mpu.elf
+Finished building: default.size.stdout
+ 
+15:39:19 **** Incremental Build of configuration Debug for project sdio_spi2_ustar6_mpu ****
+make -j8 all 
+arm-none-eabi-size   sdio_spi2_ustar6_mpu.elf 
+   text	   data	    bss	    dec	    hex	filename
+  65292	    580	  12524	  78396	  1323c	sdio_spi2_ustar6_mpu.elf
+Finished building: default.size.stdout
+ 

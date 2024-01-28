@@ -1,0 +1,10 @@
+D:/Escritorio/UNAL X/InvestigacionMetro/workspace_METRO/mcu_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+D:/Escritorio/UNAL X/InvestigacionMetro/workspace_METRO/mcu_headers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Drivers/Src/AdcDriver.c:14:6:adc_Config	16	static,ignoring_inline_asm
+../Drivers/Src/AdcDriver.c:111:6:startSingleConversion	4	static
+../Drivers/Src/AdcDriver.c:116:6:startContinuousConversion	4	static
+../Drivers/Src/AdcDriver.c:122:6:stopContinuousConversion	4	static
+../Drivers/Src/AdcDriver.c:127:10:getADC	4	static
+../Drivers/Src/AdcDriver.c:132:6:ADC_IRQHandler	8	static
+../Drivers/Src/AdcDriver.c:144:29:adcComplete_Callback	4	static,ignoring_inline_asm
+../Drivers/Src/AdcDriver.c:149:6:configAnalogPin	16	static

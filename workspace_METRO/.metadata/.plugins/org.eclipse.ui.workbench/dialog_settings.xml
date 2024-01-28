@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.cdt.ui.importWizardCategory"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="600"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="675"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<list key="orderedElements">
+			<item value="org.eclipse.ui.preferencePages.ColorsAndFonts"/>
+			<item value="org.eclipse.ui.editors.preferencePages.Annotations"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.preferences"/>
+		</list>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="textArray">
+			<item value="app"/>
+			<item value="anno"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\Escritorio\UNAL XI\InvestigacionMetro\IMP23ABSU\GuardadoDatos\sdio_spi2_usart6_2511.zip"/>
+			<item value="D:\Escritorio\UNAL XI\InvestigacionMetro\IMP23ABSU\GuardadoDatos\SDIO_ADCDMA.zip"/>
+			<item value="D:\Escritorio\UNAL XI\InvestigacionMetro\IMP23ABSU\GuardadoDatos\SDIO_ADCNormal.zip"/>
+			<item value="D:\Escritorio\UNAL XI\InvestigacionMetro\IMP23ABSU\GuardadoDatos\SDIOMICActualizado2.zip"/>
+			<item value="D:\Escritorio\UNAL XI\InvestigacionMetro\IMP23ABSU\GuardadoDatos\SDIOMICActualizado.zip"/>
+			<item value="D:\Escritorio\UNAL XI\InvestigacionMetro\IMP23ABSU\sdioMIC.zip"/>
+			<item value="D:\Escritorio\UNAL XI\InvestigacionMetro\IMP23ABSU\WorkingAdquisition.zip"/>
+		</list>
+	</section>
+</section>
